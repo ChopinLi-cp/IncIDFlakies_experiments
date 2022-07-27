@@ -1,0 +1,4 @@
+com.openpojo.exception.ExceptionsTest
+com.openpojo.reflection.java.packageloader.env.JavaClassPathClassLoaderTest
+com.openpojo.StructuralTest
+com.openpojo.validation.test.impl.SerializableTesterTest

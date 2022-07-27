@@ -1,0 +1,2 @@
+com.dangdang.ddframe.job.lite.internal.instance.ShutdownListenerManagerTest.assertRemoveLocalInstancePath
+com.dangdang.ddframe.job.lite.api.JobSchedulerTest.assertInit

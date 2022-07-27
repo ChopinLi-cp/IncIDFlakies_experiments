@@ -1,0 +1,4 @@
+com.alibaba.dubbo.cache.filter.CacheFilterTest
+com.alibaba.dubbo.cache.support.jcache.JCacheFactoryTest
+com.alibaba.dubbo.cache.support.lru.LruCacheFactoryTest
+com.alibaba.dubbo.cache.support.threadlocal.ThreadLocalCacheFactoryTest

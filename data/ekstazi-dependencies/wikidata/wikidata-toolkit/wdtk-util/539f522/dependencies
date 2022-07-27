@@ -1,0 +1,5 @@
+org.wikidata.wdtk.util.DirectoryManagerFactoryTest,org.wikidata.wdtk.util.DirectoryManagerFactory,org.wikidata.wdtk.util.DirectoryManagerImpl,org.wikidata.wdtk.util.DirectoryManagerFactoryTest
+org.wikidata.wdtk.util.DirectoryManagerTest,org.wikidata.wdtk.util.CompressionType,org.wikidata.wdtk.util.DirectoryManagerImpl,org.wikidata.wdtk.util.DirectoryManagerTest
+org.wikidata.wdtk.util.NestedIteratorTest,org.wikidata.wdtk.util.NestedIterator,org.wikidata.wdtk.util.NestedIteratorTest
+org.wikidata.wdtk.util.TimerTest,org.wikidata.wdtk.util.Timer,org.wikidata.wdtk.util.TimerTest
+org.wikidata.wdtk.util.WebResourceFetcherTest,org.wikidata.wdtk.util.WebResourceFetcherImpl,org.wikidata.wdtk.util.WebResourceFetcherTest

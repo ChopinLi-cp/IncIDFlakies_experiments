@@ -1,0 +1,2 @@
+com.alibaba.dubbo.common.threadlocal.InternalThreadLocalTest
+com.alibaba.dubbo.common.threadlocal.NamedInternalThreadFactoryTest

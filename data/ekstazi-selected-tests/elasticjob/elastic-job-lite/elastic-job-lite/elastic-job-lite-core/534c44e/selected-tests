@@ -1,0 +1,15 @@
+com.dangdang.ddframe.job.lite.api.JobSchedulerTest
+com.dangdang.ddframe.job.lite.internal.config.ConfigurationListenerManagerTest
+com.dangdang.ddframe.job.lite.internal.election.LeaderListenerManagerTest
+com.dangdang.ddframe.job.lite.internal.execution.ExecutionListenerManagerTest
+com.dangdang.ddframe.job.lite.internal.executor.JobExecutorTest
+com.dangdang.ddframe.job.lite.internal.failover.FailoverListenerManagerTest
+com.dangdang.ddframe.job.lite.internal.guarantee.GuaranteeListenerManagerTest
+com.dangdang.ddframe.job.lite.internal.instance.InstanceShutdownListenerManagerTest
+com.dangdang.ddframe.job.lite.internal.instance.InstanceTriggerListenerManagerTest
+com.dangdang.ddframe.job.lite.internal.listener.JobListenerTest
+com.dangdang.ddframe.job.lite.internal.listener.ListenerManagerTest
+com.dangdang.ddframe.job.lite.internal.monitor.MonitorServiceDisableTest
+com.dangdang.ddframe.job.lite.internal.monitor.MonitorServiceEnableTest
+com.dangdang.ddframe.job.lite.internal.schedule.SchedulerFacadeTest
+com.dangdang.ddframe.job.lite.internal.sharding.ShardingListenerManagerTest

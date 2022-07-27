@@ -1,0 +1,3 @@
+org.jboss.as.naming.WritableServiceBasedNamingStoreTestCase.testPermissions
+org.jboss.as.naming.WritableServiceBasedNamingStoreTestCase.testRebindNoOwner
+org.jboss.as.naming.WritableServiceBasedNamingStoreTestCase.testUnbind

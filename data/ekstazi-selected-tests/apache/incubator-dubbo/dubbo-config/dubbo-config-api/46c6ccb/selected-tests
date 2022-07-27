@@ -1,0 +1,9 @@
+com.alibaba.dubbo.config.AbstractConfigTest
+com.alibaba.dubbo.config.AbstractInterfaceConfigTest
+com.alibaba.dubbo.config.cache.CacheTest
+com.alibaba.dubbo.config.GenericServiceTest
+com.alibaba.dubbo.config.ReferenceConfigTest
+com.alibaba.dubbo.config.url.test.ExporterSideConfigUrlTest
+com.alibaba.dubbo.config.url.test.InvokerSideConfigUrlTest
+com.alibaba.dubbo.config.utils.ReferenceConfigCacheTest
+com.alibaba.dubbo.config.validation.ValidationTest

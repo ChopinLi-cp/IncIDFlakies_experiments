@@ -1,0 +1,5 @@
+com.openpojo.exception.ExceptionsTest
+com.openpojo.reflection.construct.InstanceFactoryTest
+com.openpojo.reflection.java.packageloader.env.JavaClassPathClassLoaderTest
+com.openpojo.reflection.java.type.GenericArrayTypeResolverTest
+com.openpojo.StructuralTest

@@ -1,0 +1,13 @@
+com.alibaba.dubbo.common.serialize.fst.FstObjectInputTest.testWrongClassInput
+com.alibaba.dubbo.common.serialize.fst.FstObjectOutputTest.testWriteNullBytes
+com.alibaba.dubbo.common.serialize.fst.FstObjectOutputTest.testWriteBytes
+com.alibaba.dubbo.common.serialize.fst.FstObjectOutputTest.testWriteFloat
+com.alibaba.dubbo.common.serialize.fst.FstObjectOutputTest.testWriteShort
+com.alibaba.dubbo.common.serialize.fst.FstObjectOutputTest.testWriteInt
+com.alibaba.dubbo.common.serialize.fst.FstObjectOutputTest.testWriteUTF
+com.alibaba.dubbo.common.serialize.fst.FstObjectOutputTest.testWriteNullBytesWithSubLength
+com.alibaba.dubbo.common.serialize.fst.FstObjectOutputTest.testWriteByte
+com.alibaba.dubbo.common.serialize.fst.FstObjectOutputTest.testWriteEnum
+com.alibaba.dubbo.common.serialize.fst.FstObjectOutputTest.testWriteLong
+com.alibaba.dubbo.common.serialize.fst.FstObjectOutputTest.testWriteBytesWithSubLength
+com.alibaba.dubbo.common.serialize.fst.FstObjectOutputTest.testWriteDouble

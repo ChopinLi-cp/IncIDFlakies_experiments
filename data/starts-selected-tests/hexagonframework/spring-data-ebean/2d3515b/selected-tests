@@ -1,0 +1,2 @@
+org.springframework.data.ebean.querychannel.EbeanQueryChannelServiceIntegrationTest
+org.springframework.data.ebean.repository.UserRepositoryIntegrationTest

@@ -1,0 +1,9 @@
+org.apache.dubbo.rpc.cluster.router.file.FileRouterEngineTest
+org.apache.dubbo.rpc.cluster.StickyTest
+org.apache.dubbo.rpc.cluster.support.AbstractClusterInvokerTest
+org.apache.dubbo.rpc.cluster.support.FailbackClusterInvokerTest
+org.apache.dubbo.rpc.cluster.support.FailfastClusterInvokerTest
+org.apache.dubbo.rpc.cluster.support.FailoverClusterInvokerTest
+org.apache.dubbo.rpc.cluster.support.FailSafeClusterInvokerTest
+org.apache.dubbo.rpc.cluster.support.ForkingClusterInvokerTest
+org.apache.dubbo.rpc.cluster.support.wrapper.MockClusterInvokerTest

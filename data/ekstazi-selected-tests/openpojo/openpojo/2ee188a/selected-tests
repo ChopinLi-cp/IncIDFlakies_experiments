@@ -1,0 +1,4 @@
+com.openpojo.exception.ExceptionsTest
+com.openpojo.random.generator.time.ZonedDateTimeRandomGeneratorTest
+com.openpojo.random.generator.time.ZoneIdRandomGeneratorTest
+com.openpojo.StructuralTest

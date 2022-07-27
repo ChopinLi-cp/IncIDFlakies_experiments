@@ -1,0 +1,3 @@
+com.alibaba.dubbo.config.spring.context.annotation.DubboComponentScanRegistrarTest.test
+com.alibaba.dubbo.config.spring.context.annotation.DubboConfigConfigurationTest.testMultiple
+com.alibaba.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessorTest.test

@@ -1,0 +1,4 @@
+org.apache.dubbo.rpc.cluster.router.tag.TagRouterTest.testRoute_requestWithoutTag_shouldNotDowngrade
+org.apache.dubbo.rpc.cluster.router.tag.TagRouterTest.testRoute_matchTag
+org.apache.dubbo.rpc.cluster.router.tag.TagRouterTest.testRoute_matchDefault
+org.apache.dubbo.rpc.cluster.router.tag.TagRouterTest.testRoute_requestWithTag_shouldDowngrade

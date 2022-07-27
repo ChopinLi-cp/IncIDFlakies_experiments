@@ -1,0 +1,13 @@
+com.openpojo.exception.ExceptionsTest
+com.openpojo.issues.issue14enumset.BeanTest
+com.openpojo.issues.issue26.TestEntityTest
+com.openpojo.issues.issue46.IssueTest
+com.openpojo.issues.issue81.IssueTest
+com.openpojo.random.collection.CollectionAndMapPackageRandomGeneratorsTest
+com.openpojo.reflection.filters.FilterEnumTest
+com.openpojo.reflection.impl.PojoClassFactoryTest
+com.openpojo.reflection.impl.PojoClassImplTest
+com.openpojo.reflection.impl.PojoPackageImplTest
+com.openpojo.StructuralTest
+com.openpojo.validation.impl.DefaultValidatorTest
+com.openpojo.validation.test.impl.GetterTesterAndSetterTesterTest

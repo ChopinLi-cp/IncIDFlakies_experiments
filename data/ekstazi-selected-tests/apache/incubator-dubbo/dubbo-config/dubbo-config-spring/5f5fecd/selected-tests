@@ -1,0 +1,6 @@
+com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessorTest
+com.alibaba.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessorTest
+com.alibaba.dubbo.config.spring.context.annotation.DubboComponentScanRegistrarTest
+com.alibaba.dubbo.config.spring.context.annotation.EnableDubboTest
+com.alibaba.dubbo.config.spring.extension.SpringExtensionFactoryTest
+com.alibaba.dubbo.config.spring.initializer.DubboApplicationListenerTest

@@ -1,0 +1,2 @@
+net.sf.marineapi.ais.event.AbstractAISMessageListenerTest
+net.sf.marineapi.nmea.event.AbstractSentenceListenerTest

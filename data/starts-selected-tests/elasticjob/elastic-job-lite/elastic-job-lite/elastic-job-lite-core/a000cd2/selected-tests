@@ -1,0 +1,6 @@
+com.dangdang.ddframe.job.lite.api.JobSchedulerTest
+com.dangdang.ddframe.job.lite.internal.instance.ShutdownListenerManagerTest
+com.dangdang.ddframe.job.lite.internal.listener.ListenerManagerTest
+com.dangdang.ddframe.job.lite.internal.monitor.MonitorServiceDisableTest
+com.dangdang.ddframe.job.lite.internal.monitor.MonitorServiceEnableTest
+com.dangdang.ddframe.job.lite.internal.schedule.SchedulerFacadeTest

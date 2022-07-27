@@ -1,0 +1,3 @@
+nl.hsac.fitnesse.fixture.slim.FileFixtureTest.testAppendContainingOnSameline
+nl.hsac.fitnesse.fixture.slim.FileFixtureTest.testAppendContainingOnNewline
+nl.hsac.fitnesse.fixture.slim.FileFixtureTest.testCopyTo

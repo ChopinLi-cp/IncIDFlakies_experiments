@@ -1,0 +1,7 @@
+net.sf.marineapi.nmea.event.AbstractSentenceListenerTest
+net.sf.marineapi.nmea.io.SentenceReaderTest
+net.sf.marineapi.nmea.parser.RPMTest
+net.sf.marineapi.nmea.parser.SentenceFactoryTest
+net.sf.marineapi.nmea.parser.SentenceParserTest
+net.sf.marineapi.provider.HeadingProviderTest
+net.sf.marineapi.provider.PositionProviderTest

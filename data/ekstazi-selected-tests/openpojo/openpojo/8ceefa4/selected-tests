@@ -1,0 +1,4 @@
+com.openpojo.exception.ExceptionsTest
+com.openpojo.issues.issue81.IssueTest
+com.openpojo.registry.ServiceRegistrarTest
+com.openpojo.StructuralTest

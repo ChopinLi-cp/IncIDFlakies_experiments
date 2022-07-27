@@ -1,0 +1,6 @@
+org.zalando.riptide.spring.metrics.MetricsCircuitBreakerListenerTest
+org.zalando.riptide.spring.metrics.MetricsRetryListenerTest
+org.zalando.riptide.spring.metrics.MetricsTest
+org.zalando.riptide.spring.PluginTest
+org.zalando.riptide.spring.testing.RiptideClientTestTest
+org.zalando.riptide.spring.url.UrlResolutionTest

@@ -1,0 +1,4 @@
+com.alibaba.dubbo.common.serialize.fst.FstFactoryTest
+com.alibaba.dubbo.common.serialize.fst.FstObjectInputTest
+com.alibaba.dubbo.common.serialize.fst.FstObjectOutputTest
+com.alibaba.dubbo.common.serialize.fst.FstSerializationTest

@@ -1,0 +1,2 @@
+com.dangdang.ddframe.job.lite.internal.monitor.MonitorServiceEnableTest
+com.dangdang.ddframe.job.lite.internal.sharding.ShardingListenerManagerTest

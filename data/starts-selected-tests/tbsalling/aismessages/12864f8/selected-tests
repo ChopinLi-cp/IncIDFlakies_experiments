@@ -1,0 +1,13 @@
+dk.tbsalling.aismessages.ais.DecodersTest
+dk.tbsalling.aismessages.ais.messages.AISMessageTest
+dk.tbsalling.aismessages.ais.messages.BaseStationReportTest
+dk.tbsalling.aismessages.ais.messages.BinaryBroadcastMessageTest
+dk.tbsalling.aismessages.ais.messages.ClassBCSStaticDataReportTest
+dk.tbsalling.aismessages.ais.messages.DataLinkManagementTest
+dk.tbsalling.aismessages.ais.messages.InterrogationTest
+dk.tbsalling.aismessages.ais.messages.PositionReportClassAAssignedScheduleTest
+dk.tbsalling.aismessages.ais.messages.PositionReportClassAResponseToInterrogationTest
+dk.tbsalling.aismessages.ais.messages.PositionReportClassAScheduledTest
+dk.tbsalling.aismessages.ais.messages.ShipAndVoyageDataTest
+dk.tbsalling.aismessages.ais.messages.StandardClassBCSPositionReportTest
+dk.tbsalling.aismessages.nmea.NMEAMessageHandlerTest

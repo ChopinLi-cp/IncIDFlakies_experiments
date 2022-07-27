@@ -1,0 +1,6 @@
+com.alibaba.dubbo.common.threadpool.support.AbortPolicyWithReportTest
+com.alibaba.dubbo.common.threadpool.support.cached.CachedThreadPoolTest
+com.alibaba.dubbo.common.threadpool.support.eager.EagerThreadPoolTest
+com.alibaba.dubbo.common.threadpool.support.eager.TaskQueueTest
+com.alibaba.dubbo.common.threadpool.support.fixed.FixedThreadPoolTest
+com.alibaba.dubbo.common.threadpool.support.limited.LimitedThreadPoolTest

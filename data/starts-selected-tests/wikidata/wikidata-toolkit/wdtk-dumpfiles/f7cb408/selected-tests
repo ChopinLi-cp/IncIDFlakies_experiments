@@ -1,0 +1,8 @@
+org.wikidata.wdtk.dumpfiles.JsonDumpFileProcessingTest
+org.wikidata.wdtk.dumpfiles.MwDumpFileProcessingTest
+org.wikidata.wdtk.dumpfiles.MwLocalDumpFileTest
+org.wikidata.wdtk.dumpfiles.SitesTest
+org.wikidata.wdtk.dumpfiles.wmf.WmfDumpFileManagerTest
+org.wikidata.wdtk.dumpfiles.wmf.WmfLocalDumpFileTest
+org.wikidata.wdtk.dumpfiles.wmf.WmfOnlineDailyDumpFileTest
+org.wikidata.wdtk.dumpfiles.wmf.WmfOnlineStandardDumpFileTest

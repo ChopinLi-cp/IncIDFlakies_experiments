@@ -1,0 +1,3 @@
+com.alibaba.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessorTest.test
+com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessorTest.testGetInjectedFieldReferenceBeanMap
+com.alibaba.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessorTest.testGetReferenceBeans

@@ -1,0 +1,11 @@
+org.jboss.as.naming.ExternalContextsNavigableSetTestCase
+org.jboss.as.naming.InitialContextFactoryTestCase
+org.jboss.as.naming.InitialContextTestCase
+org.jboss.as.naming.InMemoryNamingStoreTestCase
+org.jboss.as.naming.NamingContextTestCase
+org.jboss.as.naming.NamingEventCoordinatorTestCase
+org.jboss.as.naming.ObjectFactoryTestCase
+org.jboss.as.naming.ServiceBasedNamingStoreTestCase
+org.jboss.as.naming.subsystem.NamingSubsystemTestCase
+org.jboss.as.naming.WritableServiceBasedNamingStoreTestCase
+org.wildfly.naming.java.permission.JndiPermissionTestCase

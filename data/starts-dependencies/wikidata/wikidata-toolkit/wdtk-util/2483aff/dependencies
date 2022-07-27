@@ -1,0 +1,7 @@
+org.wikidata.wdtk.util.NestedIterator,org.wikidata.wdtk.util.NestedIteratorTest
+org.wikidata.wdtk.util.NestedIteratorTest,org.wikidata.wdtk.util.NestedIteratorTest
+org.wikidata.wdtk.util.WebResourceFetcher,org.wikidata.wdtk.util.WebResourceFetcherTest
+org.wikidata.wdtk.util.Timer,org.wikidata.wdtk.util.TimerTest
+org.wikidata.wdtk.util.WebResourceFetcherTest,org.wikidata.wdtk.util.WebResourceFetcherTest
+org.wikidata.wdtk.util.WebResourceFetcherImpl,org.wikidata.wdtk.util.WebResourceFetcherTest
+org.wikidata.wdtk.util.TimerTest,org.wikidata.wdtk.util.TimerTest

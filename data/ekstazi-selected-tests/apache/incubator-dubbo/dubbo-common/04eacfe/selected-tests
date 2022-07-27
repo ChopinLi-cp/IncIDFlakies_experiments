@@ -1,0 +1,3 @@
+com.alibaba.dubbo.common.concurrent.ListenableFutureTaskTest
+com.alibaba.dubbo.common.threadlocal.InternalThreadLocalTest
+com.alibaba.dubbo.common.threadpool.support.eager.EagerThreadPoolExecutorTest

@@ -1,0 +1,2 @@
+org.zalando.riptide.spring.metrics.MetricsTest.shouldRecordCircuitBreakers
+org.zalando.riptide.spring.metrics.MetricsTest.shouldRecordRetries

@@ -1,0 +1,4 @@
+com.alibaba.dubbo.common.status.StatusTest
+com.alibaba.dubbo.common.status.support.LoadStatusCheckerTest
+com.alibaba.dubbo.common.status.support.MemoryStatusCheckerTest
+com.alibaba.dubbo.common.status.support.StatusUtilsTest

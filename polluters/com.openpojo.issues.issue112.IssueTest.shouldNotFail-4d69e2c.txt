@@ -1,0 +1,4 @@
+com.openpojo.log.LoggerFactoryTest.shouldReturnSetLogger
+com.openpojo.log.JavaLoggerTest.testToString
+com.openpojo.log.JavaLoggerTest.shouldLogInVariousLevels
+com.openpojo.log.JavaLoggerTest.shouldTestError

@@ -1,0 +1,10 @@
+io.dropwizard.logging.AppenderFactoryCustomLayoutTest
+io.dropwizard.logging.ConsoleAppenderFactoryTest
+io.dropwizard.logging.DefaultLoggingFactoryPrintErrorMessagesTest
+io.dropwizard.logging.DefaultLoggingFactoryTest
+io.dropwizard.logging.FileAppenderFactoryTest
+io.dropwizard.logging.SyslogAppenderFactoryTest
+io.dropwizard.logging.TcpSocketAppenderFactoryTest
+io.dropwizard.logging.ThrottlingAppenderTest
+io.dropwizard.logging.TlsSocketAppenderFactoryTest
+io.dropwizard.logging.UdpSocketAppenderFactoryTest

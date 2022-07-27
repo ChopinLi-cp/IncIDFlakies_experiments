@@ -1,0 +1,2 @@
+dk.tbsalling.aismessages.nmea.NMEAMessageHandlerTest.canFlushUnhandled
+dk.tbsalling.aismessages.nmea.NMEAMessageHandlerTest.canFlushEmpty

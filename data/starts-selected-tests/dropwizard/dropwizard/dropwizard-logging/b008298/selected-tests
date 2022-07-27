@@ -1,0 +1,16 @@
+ch.qos.logback.core.recovery.ResilentSocketOutputStreamTest
+io.dropwizard.logging.AppenderFactoryCustomLayoutTest
+io.dropwizard.logging.ConsoleAppenderFactoryTest
+io.dropwizard.logging.DefaultLoggingFactoryPrintErrorMessagesTest
+io.dropwizard.logging.DefaultLoggingFactoryTest
+io.dropwizard.logging.DropwizardLayoutTest
+io.dropwizard.logging.ExternalLoggingFactoryTest
+io.dropwizard.logging.FileAppenderFactoryTest
+io.dropwizard.logging.PrefixedExtendedThrowableProxyConverterTest
+io.dropwizard.logging.PrefixedRootCauseFirstThrowableProxyConverterTest
+io.dropwizard.logging.PrefixedThrowableProxyConverterTest
+io.dropwizard.logging.socket.DropwizardUdpSocketAppenderTest
+io.dropwizard.logging.SyslogAppenderFactoryTest
+io.dropwizard.logging.TcpSocketAppenderFactoryTest
+io.dropwizard.logging.TlsSocketAppenderFactoryTest
+io.dropwizard.logging.UdpSocketAppenderFactoryTest

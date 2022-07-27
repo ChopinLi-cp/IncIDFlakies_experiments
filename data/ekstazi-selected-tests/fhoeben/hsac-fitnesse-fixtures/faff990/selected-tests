@@ -1,0 +1,7 @@
+nl.hsac.fitnesse.fixture.AcceptanceTest
+nl.hsac.fitnesse.fixture.leanapps.ReportXmlFixtureTest
+nl.hsac.fitnesse.fixture.slim.FileFixtureTest
+nl.hsac.fitnesse.fixture.util.HttpResponseTest
+nl.hsac.fitnesse.fixture.util.XMLFormatterTest
+nl.hsac.fitnesse.fixture.util.XPathHelperTest
+nl.hsac.fitnesse.junit.reportmerge.HtmlReportIndexGeneratorTest

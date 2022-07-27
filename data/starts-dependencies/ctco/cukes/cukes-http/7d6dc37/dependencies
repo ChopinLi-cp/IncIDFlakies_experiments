@@ -1,0 +1,16 @@
+lv.ctco.cukes.core.internal.context.CaptureContext,lv.ctco.cukes.http.templating.TemplatingEngineTest
+lv.ctco.cukes.core.internal.matchers.EndsWithRegexp,lv.ctco.cukes.http.matchers.EndsWithRegexpTest
+lv.ctco.cukes.core.internal.helpers.IO,lv.ctco.cukes.http.templating.TemplatingEngineTest
+lv.ctco.cukes.core.internal.context.GlobalWorld,lv.ctco.cukes.http.templating.TemplatingEngineTest
+lv.ctco.cukes.core.CukesOptions,lv.ctco.cukes.http.templating.TemplatingEngineTest
+lv.ctco.cukes.http.templating.TemplatingEngineTest,lv.ctco.cukes.http.templating.TemplatingEngineTest
+lv.ctco.cukes.core.internal.templating.TemplatingEngine,lv.ctco.cukes.http.templating.TemplatingEngineTest
+lv.ctco.cukes.core.internal.context.CaptureContext,lv.ctco.cukes.http.templating.TemplatingEngineTest
+lv.ctco.cukes.core.internal.context.CaptureContext,lv.ctco.cukes.http.templating.TemplatingEngineTest
+lv.ctco.cukes.core.CukesRuntimeException,lv.ctco.cukes.http.templating.TemplatingEngineTest
+lv.ctco.cukes.core.internal.context.InflateContext,lv.ctco.cukes.http.templating.TemplatingEngineTest
+lv.ctco.cukes.core.internal.context.GlobalWorldFacade,lv.ctco.cukes.http.templating.TemplatingEngineTest
+lv.ctco.cukes.core.internal.helpers.Files,lv.ctco.cukes.http.templating.TemplatingEngineTest
+lv.ctco.cukes.http.matchers.EndsWithRegexpTest,lv.ctco.cukes.http.matchers.EndsWithRegexpTest
+lv.ctco.cukes.core.internal.context.InflateContext,lv.ctco.cukes.http.templating.TemplatingEngineTest
+lv.ctco.cukes.core.internal.matchers.EndsWithRegexp,lv.ctco.cukes.http.matchers.EndsWithRegexpTest

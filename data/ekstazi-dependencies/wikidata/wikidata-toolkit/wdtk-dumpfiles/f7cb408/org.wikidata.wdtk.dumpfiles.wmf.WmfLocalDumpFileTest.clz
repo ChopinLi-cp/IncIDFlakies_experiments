@@ -1,0 +1,15 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-dumpfiles/target/classes/org/wikidata/wdtk/dumpfiles/DumpContentType.class _ 3717207864
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-dumpfiles/target/classes/org/wikidata/wdtk/dumpfiles/wmf/WmfDumpFile.class _ 1721676796
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-dumpfiles/target/classes/org/wikidata/wdtk/dumpfiles/wmf/WmfLocalDumpFile.class _ 3462423642
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-dumpfiles/target/test-classes/org/wikidata/wdtk/dumpfiles/wmf/WmfLocalDumpFileTest.class _ 155274425
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-testing/target/classes/org/wikidata/wdtk/testing/MockDirectoryManager.class _ 379172438
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-testing/target/classes/org/wikidata/wdtk/testing/MockStringContentFactory$1.class _ 39363495
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-testing/target/classes/org/wikidata/wdtk/testing/MockStringContentFactory.class _ 2873863596
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-util/target/classes/org/wikidata/wdtk/util/CompressionType.class _ 2454900698
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-util/target/classes/org/wikidata/wdtk/util/DirectoryManager.class _ 3254173209
+jar:file:/home/chopinli/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar!/org/objenesis/instantiator/ObjectInstantiator.class _ 2324712833
+jar:file:/home/chopinli/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar!/org/objenesis/instantiator/sun/SunReflectionFactoryHelper.class _ 1344665777
+jar:file:/home/chopinli/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar!/org/objenesis/instantiator/sun/SunReflectionFactoryInstantiator.class _ 3652438191
+jar:file:/home/chopinli/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar!/org/objenesis/strategy/InstantiatorStrategy.class _ 2233841873
+jar:file:/home/chopinli/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar!/org/objenesis/strategy/PlatformDescription.class _ 3975917702

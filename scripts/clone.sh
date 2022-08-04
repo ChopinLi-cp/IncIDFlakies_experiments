@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 
+# this script is used to clone all the projects we need
+
 if [[ $1 == "" ]]; then
-    cho "arg1 - full path to the victim csv file (eg. data/victim.csv)"
+    echo "arg1 - full path to the commits csv file (eg. data/commits.csv)"
+    echo "this script is used to clone all the projects in the evaluation"
     exit
 fi
 

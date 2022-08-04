@@ -1,0 +1,21 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/api/strategy/JobInstance.class _ 1462282173
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/election/ElectionListenerManager$LeaderElectionJobListener.class _ 3608373300
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/election/ElectionListenerManager.class _ 75428955
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/election/LeaderNode.class _ 1296809573
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/election/LeaderService.class _ 3412702054
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/listener/AbstractJobListener.class _ 1149130347
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/listener/AbstractListenerManager.class _ 769012898
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/schedule/JobRegistry.class _ 597806955
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/server/ServerNode.class _ 3693665494
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/server/ServerService.class _ 2814983187
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/server/ServerStatus.class _ 44721720
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/storage/JobNodePath.class _ 1223458051
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/storage/JobNodeStorage.class _ 2970543807
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/test-classes/com/dangdang/ddframe/job/lite/internal/election/ElectionListenerManagerTest.class _ 787042321
+jar:file:/home/chopinli/.m2/repository/net/bytebuddy/byte-buddy/1.6.11/byte-buddy-1.6.11.jar!/net/bytebuddy/TypeCache$LookupKey.class _ 2732613242
+jar:file:/home/chopinli/.m2/repository/net/bytebuddy/byte-buddy/1.6.11/byte-buddy-1.6.11.jar!/net/bytebuddy/TypeCache$SimpleKey.class _ 3490939644
+jar:file:/home/chopinli/.m2/repository/net/bytebuddy/byte-buddy/1.6.11/byte-buddy-1.6.11.jar!/net/bytebuddy/utility/CompoundList.class _ 3792126609
+jar:file:/home/chopinli/.m2/repository/org/apache/curator/curator-recipes/2.10.0/curator-recipes-2.10.0.jar!/org/apache/curator/framework/recipes/cache/TreeCacheEvent$Type.class _ 1264519690
+jar:file:/home/chopinli/.m2/repository/org/objenesis/objenesis/2.5/objenesis-2.5.jar!/org/objenesis/instantiator/ObjectInstantiator.class _ 2324712833
+jar:file:/home/chopinli/.m2/repository/org/unitils/unitils-core/3.4.2/unitils-core-3.4.2.jar!/org/unitils/util/ReflectionUtils.class _ 2465592419

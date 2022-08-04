@@ -1,0 +1,25 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/log/Logger.class _ 3333548806
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/log/LoggerFactory.class _ 2759669653
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/log/impl/SLF4JLogger.class _ 1063365042
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/log/utils/MessageFormatter.class _ 1676834953
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/issues/issue36/IssueTest.class _ 3321308819
+jar:file:/home/chopinli/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Appender.class _ 4158993114
+jar:file:/home/chopinli/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Category.class _ 2758316054
+jar:file:/home/chopinli/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/CategoryKey.class _ 2531836669
+jar:file:/home/chopinli/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Level.class _ 3008150245
+jar:file:/home/chopinli/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/LogManager.class _ 1820022563
+jar:file:/home/chopinli/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Logger.class _ 2085771611
+jar:file:/home/chopinli/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/ProvisionNode.class _ 1529148370
+jar:file:/home/chopinli/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/spi/DefaultRepositorySelector.class _ 1719467948
+jar:file:/home/chopinli/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/spi/LoggerFactory.class _ 4254071822
+jar:file:/home/chopinli/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/spi/LoggerRepository.class _ 1355483961
+jar:file:/home/chopinli/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/spi/LoggingEvent.class _ 913837377
+jar:file:/home/chopinli/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/spi/RepositorySelector.class _ 3809177066
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar!/org/slf4j/ILoggerFactory.class _ 2957801382
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar!/org/slf4j/Logger.class _ 847523693
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar!/org/slf4j/LoggerFactory.class _ 3673326537
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar!/org/slf4j/helpers/MarkerIgnoringBase.class _ 672128358
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar!/org/slf4j/helpers/NamedLoggerBase.class _ 3924562916
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/Log4jLoggerAdapter.class _ 4122994450
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class _ 3397853965

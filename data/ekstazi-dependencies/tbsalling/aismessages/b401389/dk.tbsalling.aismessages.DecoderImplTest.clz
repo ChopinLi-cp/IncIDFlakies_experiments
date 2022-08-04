@@ -1,0 +1,26 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/decoder/Decoder.class _ 3777210133
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/decoder/DecoderImpl$1.class _ 353957189
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/decoder/DecoderImpl.class _ 1903197447
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/exceptions/InvalidEncodedMessage.class _ 3095561950
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/BaseStationReport.class _ 317828199
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/BinaryBroadcastMessage.class _ 4117556038
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/ClassBCSStaticDataReport.class _ 2607094460
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/DataLinkManagement.class _ 4107361382
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/DecodedAISMessage.class _ 3753830965
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/EncodedAISMessage.class _ 1240702509
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/Interrogation.class _ 675008857
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/PositionReport.class _ 3424380049
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/PositionReportClassAAssignedSchedule.class _ 2332824351
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/PositionReportClassAResponseToInterrogation.class _ 667638330
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/PositionReportClassAScheduled.class _ 4162953941
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/ShipAndVoyageData.class _ 1949493935
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/StandardClassBCSPositionReport.class _ 448430104
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/types/AISMessageType.class _ 1712067445
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/types/IMO.class _ 468381715
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/types/MMSI.class _ 2332889952
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/types/ManeuverIndicator.class _ 4112711613
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/types/NavigationStatus.class _ 1417663173
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/types/PositionFixingDevice.class _ 1899054486
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/types/ShipType.class _ 1881153996
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/test-classes/dk/tbsalling/aismessages/DecoderImplTest.class _ 682563844

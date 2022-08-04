@@ -1,0 +1,24 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/cache/CacheStorage.class _ 1314286275
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/cache/impl/WeakHashMapCacheStorage.class _ 3383591132
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/log/Logger.class _ 3333548806
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/log/LoggerFactory.class _ 1736432841
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/log/impl/SLF4JLogger.class _ 1063365042
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/PojoClass.class _ 710201377
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/PojoField.class _ 4220059715
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/cache/PojoCache.class _ 2150938281
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/impl/PojoClassFactory.class _ 862625586
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/service/PojoClassLookupService.class _ 1348284748
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/registry/ServiceRegistrar.class _ 3881567974
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/validation/Validator.class _ 184723523
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/validation/ValidatorBuilder.class _ 1553498510
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/validation/impl/DefaultValidator.class _ 3325107430
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/validation/rule/Rule.class _ 3385004416
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/validation/rule/impl/GetterMustExistRule.class _ 1851360731
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/validation/rule/impl/SetterMustExistRule.class _ 787945260
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/validation/utils/ValidationHelper.class _ 301363801
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/issues/issue22/GetterSetterTest.class _ 2012017656
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/issues/issue22/sampleclasses/SomeBean.class _ 3425927882
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/ILoggerFactory.class _ 2957801382
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/LoggerFactory.class _ 1546745782
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class _ 3397853965

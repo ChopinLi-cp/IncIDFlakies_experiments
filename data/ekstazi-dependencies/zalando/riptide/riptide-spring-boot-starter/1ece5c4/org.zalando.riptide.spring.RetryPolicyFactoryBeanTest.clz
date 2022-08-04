@@ -1,0 +1,20 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/zalando/riptide/riptide-failsafe/target/classes/org/zalando/riptide/failsafe/CompoundDelayParser.class _ 3090864511
+file:/home/chopinli/project/RTS_experiments/projects/zalando/riptide/riptide-failsafe/target/classes/org/zalando/riptide/failsafe/HttpDateDelayParser.class _ 3156137071
+file:/home/chopinli/project/RTS_experiments/projects/zalando/riptide/riptide-failsafe/target/classes/org/zalando/riptide/failsafe/RetryAfterDelayFunction.class _ 717009913
+file:/home/chopinli/project/RTS_experiments/projects/zalando/riptide/riptide-failsafe/target/classes/org/zalando/riptide/failsafe/RetryException.class _ 118729161
+file:/home/chopinli/project/RTS_experiments/projects/zalando/riptide/riptide-failsafe/target/classes/org/zalando/riptide/failsafe/SecondsDelayParser.class _ 3381339772
+file:/home/chopinli/project/RTS_experiments/projects/zalando/riptide/riptide-faults/target/classes/org/zalando/riptide/faults/TransientFaultException.class _ 3678376836
+file:/home/chopinli/project/RTS_experiments/projects/zalando/riptide/riptide-spring-boot-api/target/classes/org/zalando/riptide/spring/RiptideProperties$Retry.class _ 1932003896
+file:/home/chopinli/project/RTS_experiments/projects/zalando/riptide/riptide-spring-boot-api/target/classes/org/zalando/riptide/spring/TimeSpan.class _ 520291543
+file:/home/chopinli/project/RTS_experiments/projects/zalando/riptide/riptide-spring-boot-starter/target/classes/org/zalando/riptide/spring/RetryPolicyFactoryBean.class _ 507525576
+file:/home/chopinli/project/RTS_experiments/projects/zalando/riptide/riptide-spring-boot-starter/target/test-classes/org/zalando/riptide/spring/RetryPolicyFactoryBeanTest.class _ 3744593273
+jar:file:/home/chopinli/.m2/repository/com/google/guava/guava/25.1-jre/guava-25.1-jre.jar!/com/google/common/base/CharMatcher$FastMatcher.class _ 363452643
+jar:file:/home/chopinli/.m2/repository/com/google/guava/guava/25.1-jre/guava-25.1-jre.jar!/com/google/common/base/CharMatcher$InRange.class _ 2455344012
+jar:file:/home/chopinli/.m2/repository/com/google/guava/guava/25.1-jre/guava-25.1-jre.jar!/com/google/common/base/CharMatcher.class _ 4252523862
+jar:file:/home/chopinli/.m2/repository/com/google/guava/guava/25.1-jre/guava-25.1-jre.jar!/com/google/common/base/Preconditions.class _ 700966231
+jar:file:/home/chopinli/.m2/repository/net/jodah/failsafe/1.1.0/failsafe-1.1.0.jar!/net/jodah/failsafe/Predicates$4.class _ 3781274134
+jar:file:/home/chopinli/.m2/repository/net/jodah/failsafe/1.1.0/failsafe-1.1.0.jar!/net/jodah/failsafe/Predicates.class _ 1478307418
+jar:file:/home/chopinli/.m2/repository/net/jodah/failsafe/1.1.0/failsafe-1.1.0.jar!/net/jodah/failsafe/RetryPolicy.class _ 404222098
+jar:file:/home/chopinli/.m2/repository/net/jodah/failsafe/1.1.0/failsafe-1.1.0.jar!/net/jodah/failsafe/internal/util/Assert.class _ 2154580086
+jar:file:/home/chopinli/.m2/repository/net/jodah/failsafe/1.1.0/failsafe-1.1.0.jar!/net/jodah/failsafe/util/Duration.class _ 3648505746

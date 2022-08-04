@@ -7,7 +7,8 @@
 
 
 if [[ $1 == "" ]]; then
-    echo "arg1 - full path to the input file (eg. input.csv)"
+    echo "arg1 - full path to the input file (eg. commits.csv)"
+    echo "this script is to collect the output file for starts part in RQ1"
     exit
 fi
 
@@ -18,7 +19,7 @@ inputProj=$currentDir"/../../projects"
 
 cut -d',' -f1,2,4- ${input} | sort -u > tmp.csv
 
-echo -n "" > $currentDir/../../data/starts_output_full.csv
+echo -n "" > $currentDir/../../data/starts_output_RQ1.csv
 
 sum_total_tests_of_normal=0
 sum_total_time_run_iDFlakies=0.00
@@ -44,7 +45,7 @@ ant_avg_select_tests_startsFalse=0
 num_of_lines=0
 whole_divisor=0
 
-echo "# proj, module, fic_sha, # tests selected (normal), % tests selected from normal, overall time, analysis time, detection time, % overall time from normal, # tests selected (starts), % tests selected from normal, overall time, analysis time, detection time, % overall time from normal, # tests selected (starts+reachableStaticFields), % tests selected from normal, overall time, analysis time, detection time, % overall time from normal"  >> $currentDir/../../data/starts_output_full.csv
+echo "# proj, module, fic_sha, # tests selected (normal), % tests selected from normal, overall time, analysis time, detection time, % overall time from normal, # tests selected (starts), % tests selected from normal, overall time, analysis time, detection time, % overall time from normal, # tests selected (starts+reachableStaticFields), % tests selected from normal, overall time, analysis time, detection time, % overall time from normal"  >> $currentDir/../../data/starts_output_RQ1.csv
 while IFS= read -r line
 do
   if [[ ${line} =~ ^\# ]]; then 
@@ -157,12 +158,6 @@ do
     fi
   done
 
-  # if [[ $slug = "ctco/cukes" ]]; then
-  #   divisor=4
-  # else 
-  #   divisor=5
-  # fi
-
   avg_tests_of_normal=$(echo "${total_tests_of_normal} / ${divisor}" | bc -l)
   avg_time_run_iDFlakies=$(echo "${time_run_iDFlakies} / ${divisor}" | bc -l)
   avg_tests_of_startsFalse=$(echo "${total_tests_of_startsFalse} / ${divisor}" | bc -l)
@@ -185,7 +180,7 @@ do
   percentage_startsWithReachableStaticFields=$(echo "100*${total_tests_of_startsWithReachableStaticFields}/${total_tests_of_normal}" | bc -l)
   percentage_of_time_startsWithReachableStaticFields=$(echo "100*${total_time_startsWithReachableStaticFields}/${time_run_iDFlakies}" | bc -l)
   full_string="$slug,$module,$fic_short_sha,$avg_tests_of_normal,$percentage_normal,$avg_time_run_iDFlakies,$avg_analysis_time_run_iDFlakies,$avg_detection_time_run_iDFlakies,$percentage_of_time_normal,$avg_tests_of_startsFalse,$percentage_startsFalse,$avg_total_time_startsFalse,$avg_analysis_time_startsFalse,$avg_detection_time_startsFalse,$percentage_of_time_startsFalse,$avg_tests_of_startsWithReachableStaticFields,$percentage_startsWithReachableStaticFields,$avg_total_time_startsWithReachableStaticFields,$avg_analysis_time_startsWithReachableStaticFields,$avg_detection_time_startsWithReachableStaticFields,$percentage_of_time_startsWithReachableStaticFields"
-  echo $full_string >> $currentDir/../../data/starts_output_full.csv
+  echo $full_string >> $currentDir/../../data/starts_output_RQ1.csv
 
   if [[ ${total_tests_of_startsFalse} != "n/a" ]]; then
     sum_total_tests_of_normal=$(echo "${sum_total_tests_of_normal}+${total_tests_of_normal}" | bc -l)
@@ -218,6 +213,6 @@ ant_avg_select_tests_startsFalse=$(echo "${sum_total_tests_of_startsFalse}/(${wh
 ant_avg_select_tests_startsWithReachableStaticFields=$(echo "${sum_total_tests_of_startsWithReachableStaticFields}/(${whole_divisor})" | bc -l)
 
 sum_full_string="Overall-1,$num_of_lines,$sum_total_time_run_iDFlakies,$sum_total_tests_of_normal,100.00,$average_time_run_iDFlakies,0,$average_time_run_iDFlakies,100.00,$sum_total_tests_of_startsFalse,$sum_percentage_startsFalse,$average_time_startsFalse,,,$average_percentage_of_time_startsFalse,$sum_total_tests_of_startsWithReachableStaticFields,$sum_percentage_startsWithReachableStaticFields,$average_time_startsWithReachableStaticFields,,,$average_percentage_of_time_startsWithReachableStaticFields"
-echo $sum_full_string >> $currentDir/../../data/starts_output_full.csv
+echo $sum_full_string >> $currentDir/../../data/starts_output_RQ1.csv
 ant_full_string="Overall-2,$num_of_lines,$average_time_run_iDFlakies,$ant_avg_select_tests_normal,100.00,$average_time_run_iDFlakies,0,$average_time_run_iDFlakies,100.00,$ant_avg_select_tests_startsFalse,$ant_avg_percentage_startsFalse,$average_time_startsFalse,,,$ant_avg_percentage_of_time_startsFalse,$ant_avg_select_tests_startsWithReachableStaticFields,$ant_avg_percentage_startsWithReachableStaticFields,$average_time_startsWithReachableStaticFields,,,$ant_avg_percentage_of_time_startsWithReachableStaticFields"
-echo $ant_full_string >> $currentDir/../../data/starts_output_full.csv
+echo $ant_full_string >> $currentDir/../../data/starts_output_RQ1.csv

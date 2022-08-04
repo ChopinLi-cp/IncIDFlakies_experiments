@@ -1,0 +1,18 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-common/elastic-job-common-core/target/classes/com/dangdang/ddframe/job/api/JobType.class _ 550037585
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-common/elastic-job-common-core/target/classes/com/dangdang/ddframe/job/config/JobCoreConfiguration$Builder.class _ 4059271868
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-common/elastic-job-common-core/target/classes/com/dangdang/ddframe/job/config/JobCoreConfiguration.class _ 2286043678
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-common/elastic-job-common-core/target/classes/com/dangdang/ddframe/job/config/JobTypeConfiguration.class _ 4256852293
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-common/elastic-job-common-core/target/classes/com/dangdang/ddframe/job/config/simple/SimpleJobConfiguration.class _ 1885195131
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-common/elastic-job-common-core/target/classes/com/dangdang/ddframe/job/executor/handler/ExecutorServiceHandler.class _ 612477579
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-common/elastic-job-common-core/target/classes/com/dangdang/ddframe/job/executor/handler/JobExceptionHandler.class _ 3639897815
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-common/elastic-job-common-core/target/classes/com/dangdang/ddframe/job/executor/handler/JobProperties$JobPropertiesEnum.class _ 2761792251
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-common/elastic-job-common-core/target/classes/com/dangdang/ddframe/job/executor/handler/JobProperties.class _ 1462321104
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-common/elastic-job-common-core/target/classes/com/dangdang/ddframe/job/executor/handler/impl/DefaultExecutorServiceHandler.class _ 2252497065
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-common/elastic-job-common-core/target/classes/com/dangdang/ddframe/job/executor/handler/impl/DefaultJobExceptionHandler.class _ 1812717328
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/config/LiteJobConfiguration$Builder.class _ 4248282845
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/config/LiteJobConfiguration.class _ 2646910486
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/test-classes/com/dangdang/ddframe/job/lite/config/LiteJobConfigurationTest.class _ 795613935
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/test-classes/com/dangdang/ddframe/job/lite/fixture/TestSimpleJob.class _ 2436521648
+jar:file:/home/chopinli/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/base/Preconditions.class _ 1366436389
+jar:file:/home/chopinli/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/base/Strings.class _ 980765756

@@ -1,0 +1,19 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/cache/CacheStorage.class _ 1314286275
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/cache/impl/WeakHashMapCacheStorage.class _ 3383591132
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/PojoClass.class _ 710201377
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/PojoField.class _ 320604336
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/PojoMethod.class _ 2326076333
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/adapt/PojoClassAdapter.class _ 1658006285
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/adapt/impl/CoberturaPojoClassAdapter$Instance.class _ 1978686764
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/adapt/impl/CoberturaPojoClassAdapter.class _ 2651137054
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/cache/PojoCache.class _ 64592918
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/impl/PojoClassFactory.class _ 821467912
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/impl/PojoClassImpl.class _ 4081052363
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/service/PojoClassLookupService.class _ 1348284748
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/registry/ServiceRegistrar.class _ 2145633388
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/validation/affirm/Affirm.class _ 1216720689
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/validation/affirm/Affirmation.class _ 259129666
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/validation/affirm/AffirmationFactory.class _ 1105227813
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/reflection/adapt/impl/CoberturaPojoClassAdapterTest.class _ 1589504783
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/reflection/adapt/impl/sampleclasses/CoberturaInstrumentedClass.class _ 3243177166

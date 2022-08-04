@@ -1,0 +1,12 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/Extension.class _ 1198340158
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/extension/Activate.class _ 3632655318
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/extension/Adaptive.class _ 831329571
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/extension/ExtensionFactory.class _ 4082055281
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/extension/ExtensionLoader.class _ 4018087867
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/extension/SPI.class _ 778514033
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/utils/Holder.class _ 2729880153
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/extensionloader/ExtensionLoader_Compatible_Test.class _ 2765231209
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/extensionloader/compatible/CompatibleExt.class _ 1410855720
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/extensionloader/compatible/impl/CompatibleExtImpl1.class _ 77485466
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/extensionloader/compatible/impl/CompatibleExtImpl2.class _ 2432524401

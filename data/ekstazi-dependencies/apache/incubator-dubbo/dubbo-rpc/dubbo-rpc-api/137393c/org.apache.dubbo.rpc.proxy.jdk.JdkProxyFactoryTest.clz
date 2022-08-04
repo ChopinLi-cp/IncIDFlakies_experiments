@@ -1,0 +1,22 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/org/apache/dubbo/common/URL.class _ 3115611962
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/org/apache/dubbo/common/config/AsyncFor.class _ 2120516456
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/classes/com/alibaba/dubbo/rpc/service/EchoService.class _ 1150517337
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/classes/org/apache/dubbo/rpc/Invocation.class _ 3963987214
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/classes/org/apache/dubbo/rpc/Invoker.class _ 3398250914
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/classes/org/apache/dubbo/rpc/ProxyFactory.class _ 3670175465
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/classes/org/apache/dubbo/rpc/Result.class _ 2496544066
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/classes/org/apache/dubbo/rpc/RpcInvocation.class _ 1681272876
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/classes/org/apache/dubbo/rpc/RpcResult.class _ 2839928602
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/classes/org/apache/dubbo/rpc/proxy/AbstractProxyFactory.class _ 76013616
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/classes/org/apache/dubbo/rpc/proxy/AbstractProxyInvoker.class _ 3088139993
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/classes/org/apache/dubbo/rpc/proxy/InvokerInvocationHandler.class _ 4008053244
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/classes/org/apache/dubbo/rpc/proxy/jdk/JdkProxyFactory$1.class _ 3781878194
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/classes/org/apache/dubbo/rpc/proxy/jdk/JdkProxyFactory.class _ 244983901
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/classes/org/apache/dubbo/rpc/service/GenericService.class _ 3972786588
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/classes/org/apache/dubbo/rpc/support/RpcUtils.class _ 2969224307
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/test-classes/org/apache/dubbo/rpc/proxy/AbstractProxyTest.class _ 2468740224
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/test-classes/org/apache/dubbo/rpc/proxy/jdk/JdkProxyFactoryTest.class _ 3000675976
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/test-classes/org/apache/dubbo/rpc/support/DemoService.class _ 2536320554
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/test-classes/org/apache/dubbo/rpc/support/DemoServiceImpl.class _ 3737516664
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/test-classes/org/apache/dubbo/rpc/support/MyInvoker.class _ 802188382

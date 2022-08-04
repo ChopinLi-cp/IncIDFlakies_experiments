@@ -1,0 +1,12 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/PojoClass.class _ 710201377
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/PojoClassFilter.class _ 159661584
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/filters/FilterClassName.class _ 2890241876
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/validation/affirm/Affirm.class _ 1216720689
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/validation/affirm/Affirmation.class _ 259129666
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/validation/affirm/AffirmationFactory.class _ 1105227813
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/reflection/filters/FilterClassNameTest$PojoStubFactory.class _ 1288616786
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/reflection/filters/FilterClassNameTest$StubInvocationHandler.class _ 985147511
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/reflection/filters/FilterClassNameTest.class _ 3432814452
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/reflection/filters/IdentitiesAreEqual.class _ 1293625486
+jar:file:/home/chopinli/.m2/repository/org/testng/testng/6.13.1/testng-6.13.1.jar!/org/testng/Assert.class _ 3846109941

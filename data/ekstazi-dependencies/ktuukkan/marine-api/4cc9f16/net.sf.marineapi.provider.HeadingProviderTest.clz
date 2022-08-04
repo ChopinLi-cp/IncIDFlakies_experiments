@@ -1,0 +1,22 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/event/SentenceEvent.class _ 1130886931
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/io/AbstractDataReader.class _ 2455396799
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/io/DefaultDataReader.class _ 4214092712
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/io/SentenceReader.class _ 1388646440
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/parser/HDGParser.class _ 1707413109
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/parser/HDMParser.class _ 1586506947
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/parser/HDTParser.class _ 2407216491
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/parser/SentenceFactory.class _ 3095697822
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/parser/SentenceParser.class _ 411449581
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/sentence/Checksum.class _ 331587669
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/sentence/HeadingSentence.class _ 1041237672
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/sentence/Sentence.class _ 2467356261
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/sentence/SentenceId.class _ 3844809211
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/sentence/SentenceValidator.class _ 2197400786
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/sentence/TalkerId.class _ 1639785717
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/provider/AbstractProvider.class _ 2776994812
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/provider/HeadingProvider.class _ 3860810908
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/provider/event/HeadingEvent.class _ 3922997231
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/provider/event/ProviderEvent.class _ 2864540875
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/provider/event/ProviderListener.class _ 128645181
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/test-classes/net/sf/marineapi/provider/HeadingProviderTest.class _ 1798304946

@@ -1,0 +1,18 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/URL.class _ 1914414702
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/compiler/support/AdaptiveCompiler.class _ 1007676843
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/extension/ExtensionLoader.class _ 4018087867
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/extension/SPI.class _ 778514033
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/utils/DubboAppender.class _ 3643800051
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/utils/LogUtil.class _ 43145278
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/extensionloader/ExtensionLoader_Adaptive_Test.class _ 1446324024
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/extensionloader/ExtensionLoader_Adaptive_UseJdkCompiler_Test.class _ 933584372
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/extensionloader/adaptive/HasAdaptiveExt.class _ 914193354
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/extensionloader/ext1/SimpleExt.class _ 1842483752
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/extensionloader/ext2/Ext2.class _ 811785132
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/extensionloader/ext2/UrlHolder.class _ 555541545
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/extensionloader/ext3/UseProtocolKeyExt.class _ 780347181
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/extensionloader/ext4/NoUrlParamExt.class _ 3011050898
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/extensionloader/ext5/NoAdaptiveMethodExt.class _ 2675114068
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/extensionloader/ext6_inject/Ext6.class _ 2969076418
+jar:file:/home/chopinli/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar!/org/apache/log4j/Level.class _ 1855024651

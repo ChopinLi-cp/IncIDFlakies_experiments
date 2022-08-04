@@ -1,0 +1,5 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/api/strategy/JobInstance.class _ 1462282173
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/api/strategy/JobShardingStrategy.class _ 1820538303
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/api/strategy/impl/AverageAllocationJobShardingStrategy.class _ 1497545946
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/test-classes/com/dangdang/ddframe/job/lite/api/strategy/impl/AverageAllocationJobShardingStrategyTest.class _ 1280730980

@@ -7,7 +7,8 @@
 
 
 if [[ $1 == "" ]]; then
-    echo "arg1 - full path to the input file (eg. input.csv)"
+    echo "arg1 - full path to the input file (eg. commits.csv)"
+    echo "this script is to collect the output file for ekstazi part in the RQ1"
     exit
 fi
 
@@ -18,7 +19,7 @@ inputProj=$currentDir"/../../projects"
 
 cut -d',' -f1,2,4- ${input} | sort -u > tmp.csv
 
-echo -n "" > $currentDir/../../data/ekstazi_output_full.csv
+echo -n "" > $currentDir/../../data/ekstazi_output_RQ1.csv
 
 sum_total_tests_of_normal=0
 sum_total_time_run_iDFlakies=0.00
@@ -44,7 +45,7 @@ ant_avg_select_tests_ekstaziFalse=0
 num_of_lines=0
 whole_divisor=0
 
-echo "# proj, module, fic_sha, # tests selected (normal), % tests selected from normal, overall time, analysis time, detection time, % overall time from normal, # tests selected (ekstazi), % tests selected from normal, overall time, analysis time, detection time, % overall time from normal, # tests selected (ekstazi+reachableStaticFields), % tests selected from normal, overall time, analysis time, detection time, % overall time from normal"  >> $currentDir/../../data/ekstazi_output_full.csv
+echo "# proj, module, fic_sha, # tests selected (normal), % tests selected from normal, overall time, analysis time, detection time, % overall time from normal, # tests selected (ekstazi), % tests selected from normal, overall time, analysis time, detection time, % overall time from normal, # tests selected (ekstazi+reachableStaticFields), % tests selected from normal, overall time, analysis time, detection time, % overall time from normal"  >> $currentDir/../../data/ekstazi_output_RQ1.csv
 while IFS= read -r line
 do
   if [[ ${line} =~ ^\# ]]; then 
@@ -157,12 +158,6 @@ do
     fi
   done
 
-  # if [[ $slug = "ctco/cukes" ]]; then
-  #   divisor=4
-  # else 
-  #   divisor=5
-  # fi
-
   avg_tests_of_normal=$(echo "${total_tests_of_normal} / ${divisor}" | bc -l)
   avg_time_run_iDFlakies=$(echo "${time_run_iDFlakies} / ${divisor}" | bc -l)
   avg_tests_of_ekstaziFalse=$(echo "${total_tests_of_ekstaziFalse} / ${divisor}" | bc -l)
@@ -185,7 +180,7 @@ do
   percentage_ekstaziWithReachableStaticFields=$(echo "100*${total_tests_of_ekstaziWithReachableStaticFields}/${total_tests_of_normal}" | bc -l)
   percentage_of_time_ekstaziWithReachableStaticFields=$(echo "100*${total_time_ekstaziWithReachableStaticFields}/${time_run_iDFlakies}" | bc -l)
   full_string="$slug,$module,$fic_short_sha,$avg_tests_of_normal,$percentage_normal,$avg_time_run_iDFlakies,$avg_analysis_time_run_iDFlakies,$avg_detection_time_run_iDFlakies,$percentage_of_time_normal,$avg_tests_of_ekstaziFalse,$percentage_ekstaziFalse,$avg_total_time_ekstaziFalse,$avg_analysis_time_ekstaziFalse,$avg_detection_time_ekstaziFalse,$percentage_of_time_ekstaziFalse,$avg_tests_of_ekstaziWithReachableStaticFields,$percentage_ekstaziWithReachableStaticFields,$avg_total_time_ekstaziWithReachableStaticFields,$avg_analysis_time_ekstaziWithReachableStaticFields,$avg_detection_time_ekstaziWithReachableStaticFields,$percentage_of_time_ekstaziWithReachableStaticFields"
-  echo $full_string >> $currentDir/../../data/ekstazi_output_full.csv
+  echo $full_string >> $currentDir/../../data/ekstazi_output_RQ1.csv
 
   if [[ ${total_tests_of_ekstaziFalse} != "n/a" ]]; then
     sum_total_tests_of_normal=$(echo "${sum_total_tests_of_normal}+${total_tests_of_normal}" | bc -l)
@@ -218,6 +213,6 @@ ant_avg_select_tests_ekstaziFalse=$(echo "${sum_total_tests_of_ekstaziFalse}/(${
 ant_avg_select_tests_ekstaziWithReachableStaticFields=$(echo "${sum_total_tests_of_ekstaziWithReachableStaticFields}/(${whole_divisor})" | bc -l)
 
 sum_full_string="Overall-1,$num_of_lines,$sum_total_time_run_iDFlakies,$sum_total_tests_of_normal,100.00,$average_time_run_iDFlakies,0,$average_time_run_iDFlakies,100.00,$sum_total_tests_of_ekstaziFalse,$sum_percentage_ekstaziFalse,$average_time_ekstaziFalse,,,$average_percentage_of_time_ekstaziFalse,$sum_total_tests_of_ekstaziWithReachableStaticFields,$sum_percentage_ekstaziWithReachableStaticFields,$average_time_ekstaziWithReachableStaticFields,,,$average_percentage_of_time_ekstaziWithReachableStaticFields"
-echo $sum_full_string >> $currentDir/../../data/ekstazi_output_full.csv
+echo $sum_full_string >> $currentDir/../../data/ekstazi_output_RQ1.csv
 ant_full_string="Overall-2,$num_of_lines,$average_time_run_iDFlakies,$ant_avg_select_tests_normal,100.00,$average_time_run_iDFlakies,0,$average_time_run_iDFlakies,100.00,$ant_avg_select_tests_ekstaziFalse,$ant_avg_percentage_ekstaziFalse,$average_time_ekstaziFalse,,,$ant_avg_percentage_of_time_ekstaziFalse,$ant_avg_select_tests_ekstaziWithReachableStaticFields,$ant_avg_percentage_ekstaziWithReachableStaticFields,$average_time_ekstaziWithReachableStaticFields,,,$ant_avg_percentage_of_time_ekstaziWithReachableStaticFields"
-echo $ant_full_string >> $currentDir/../../data/ekstazi_output_full.csv
+echo $ant_full_string >> $currentDir/../../data/ekstazi_output_RQ1.csv

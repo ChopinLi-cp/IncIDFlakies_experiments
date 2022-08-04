@@ -1,0 +1,25 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/logger/Level.class _ 994937554
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/logger/Logger.class _ 3644969957
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/logger/LoggerAdapter.class _ 4239889367
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/logger/jcl/JclLogger.class _ 2740310849
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/logger/jcl/JclLoggerAdapter.class _ 3088990308
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/logger/jdk/JdkLogger.class _ 3559092455
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/logger/jdk/JdkLoggerAdapter.class _ 1865852
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/logger/log4j/Log4jLogger.class _ 3287604728
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/logger/log4j/Log4jLoggerAdapter.class _ 65647220
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/logger/slf4j/Slf4jLogger.class _ 3519520241
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/logger/slf4j/Slf4jLoggerAdapter.class _ 1953456656
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/logger/LoggerTest.class _ 2427754609
+jar:file:/home/chopinli/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/org/apache/commons/logging/Log.class _ 743203458
+jar:file:/home/chopinli/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/org/apache/commons/logging/LogFactory$1.class _ 4165482300
+jar:file:/home/chopinli/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/org/apache/commons/logging/LogFactory.class _ 3257745268
+jar:file:/home/chopinli/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/org/apache/commons/logging/impl/Log4JLogger.class _ 4017915875
+jar:file:/home/chopinli/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/org/apache/commons/logging/impl/WeakHashtable$Referenced.class _ 2242617391
+jar:file:/home/chopinli/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/org/apache/commons/logging/impl/WeakHashtable.class _ 2901675719
+jar:file:/home/chopinli/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar!/org/apache/log4j/Level.class _ 1855024651
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/ILoggerFactory.class _ 2957801382
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/Logger.class _ 847523693
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/LoggerFactory.class _ 1546745782
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/helpers/NOPLogger.class _ 568114038
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/helpers/NOPLoggerFactory.class _ 4090057152

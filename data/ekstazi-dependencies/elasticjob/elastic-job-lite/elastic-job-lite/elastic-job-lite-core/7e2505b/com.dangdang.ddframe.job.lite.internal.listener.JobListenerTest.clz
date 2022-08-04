@@ -1,0 +1,12 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/listener/AbstractJobListener.class _ 1149130347
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/test-classes/com/dangdang/ddframe/job/lite/internal/listener/JobListenerTest.class _ 1778048875
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/test-classes/com/dangdang/ddframe/job/lite/internal/listener/fixture/FooJobListener.class _ 2158784255
+jar:file:/home/chopinli/.m2/repository/org/apache/curator/curator-client/2.10.0/curator-client-2.10.0.jar!/org/apache/curator/utils/PathUtils.class _ 3498719103
+jar:file:/home/chopinli/.m2/repository/org/apache/curator/curator-recipes/2.10.0/curator-recipes-2.10.0.jar!/org/apache/curator/framework/recipes/cache/ChildData.class _ 4088183411
+jar:file:/home/chopinli/.m2/repository/org/apache/curator/curator-recipes/2.10.0/curator-recipes-2.10.0.jar!/org/apache/curator/framework/recipes/cache/TreeCacheEvent.class _ 1815169821
+jar:file:/home/chopinli/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar!/org/objenesis/instantiator/ObjectInstantiator.class _ 2324712833
+jar:file:/home/chopinli/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar!/org/objenesis/instantiator/sun/SunReflectionFactoryHelper.class _ 1344665777
+jar:file:/home/chopinli/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar!/org/objenesis/instantiator/sun/SunReflectionFactoryInstantiator.class _ 3652438191
+jar:file:/home/chopinli/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar!/org/objenesis/strategy/InstantiatorStrategy.class _ 2233841873
+jar:file:/home/chopinli/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar!/org/objenesis/strategy/PlatformDescription.class _ 3975917702

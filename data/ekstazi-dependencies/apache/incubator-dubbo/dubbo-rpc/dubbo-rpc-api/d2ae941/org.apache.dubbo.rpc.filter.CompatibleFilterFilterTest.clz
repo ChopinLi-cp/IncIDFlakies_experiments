@@ -1,0 +1,23 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/org/apache/dubbo/common/URL.class _ 3115611962
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/org/apache/dubbo/common/logger/LoggerAdapter.class _ 1674828013
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/org/apache/dubbo/common/logger/LoggerFactory.class _ 2508318633
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/org/apache/dubbo/common/logger/log4j/Log4jLogger.class _ 1768802157
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/org/apache/dubbo/common/logger/log4j/Log4jLoggerAdapter.class _ 4159496767
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/org/apache/dubbo/common/logger/support/FailsafeLogger.class _ 3891156386
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/org/apache/dubbo/common/utils/CompatibleTypeUtils.class _ 207313004
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/org/apache/dubbo/common/utils/PojoUtils.class _ 3509660598
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/org/apache/dubbo/common/utils/ReflectUtils.class _ 344431460
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/classes/org/apache/dubbo/rpc/Filter.class _ 3205521703
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/classes/org/apache/dubbo/rpc/Invocation.class _ 3963987214
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/classes/org/apache/dubbo/rpc/Invoker.class _ 3398250914
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/classes/org/apache/dubbo/rpc/Result.class _ 2496544066
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/classes/org/apache/dubbo/rpc/RpcResult.class _ 2839928602
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/classes/org/apache/dubbo/rpc/filter/CompatibleFilter.class _ 1002703325
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/test-classes/org/apache/dubbo/rpc/filter/CompatibleFilterFilterTest.class _ 209712723
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/test-classes/org/apache/dubbo/rpc/support/DemoService.class _ 2536320554
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-rpc/dubbo-rpc-api/target/test-classes/org/apache/dubbo/rpc/support/Type.class _ 2113919238
+jar:file:/home/chopinli/.m2/repository/net/bytebuddy/byte-buddy/1.8.5/byte-buddy-1.8.5.jar!/net/bytebuddy/TypeCache$LookupKey.class _ 4207100680
+jar:file:/home/chopinli/.m2/repository/net/bytebuddy/byte-buddy/1.8.5/byte-buddy-1.8.5.jar!/net/bytebuddy/TypeCache$SimpleKey.class _ 1818913527
+jar:file:/home/chopinli/.m2/repository/net/bytebuddy/byte-buddy/1.8.5/byte-buddy-1.8.5.jar!/net/bytebuddy/utility/CompoundList.class _ 4085538022
+jar:file:/home/chopinli/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar!/org/objenesis/instantiator/ObjectInstantiator.class _ 2285430457

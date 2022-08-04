@@ -1,0 +1,27 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/event/SentenceEvent.class _ 1130886931
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/event/SentenceListener.class _ 4077658905
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/io/AbstractDataReader.class _ 2455396799
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/io/ActivityMonitor.class _ 302448663
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/io/DataReader.class _ 2787749608
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/io/DefaultDataReader.class _ 4214092712
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/io/ExceptionListener.class _ 108021776
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/io/SentenceReader.class _ 1388646440
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/parser/BODParser.class _ 1768385658
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/parser/GGAParser.class _ 3081005724
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/parser/GSAParser.class _ 3211285517
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/parser/GSVParser.class _ 315645568
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/parser/PositionParser.class _ 2755833418
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/parser/RMCParser.class _ 1288222472
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/parser/SentenceFactory.class _ 3095697822
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/parser/SentenceParser.class _ 411449581
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/sentence/Checksum.class _ 331587669
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/sentence/Sentence.class _ 2467356261
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/sentence/SentenceId.class _ 3844809211
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/sentence/SentenceValidator.class _ 2197400786
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/classes/net/sf/marineapi/nmea/sentence/TalkerId.class _ 1639785717
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/test-classes/net/sf/marineapi/nmea/io/SentenceReaderTest$1.class _ 3682461580
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/test-classes/net/sf/marineapi/nmea/io/SentenceReaderTest$2.class _ 446340780
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/test-classes/net/sf/marineapi/nmea/io/SentenceReaderTest$DummySentenceListener.class _ 4274425558
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/test-classes/net/sf/marineapi/nmea/io/SentenceReaderTest$TestSentenceListener.class _ 363778783
+file:/home/chopinli/project/RTS_experiments/projects/ktuukkan/marine-api/target/test-classes/net/sf/marineapi/nmea/io/SentenceReaderTest.class _ 3392946544

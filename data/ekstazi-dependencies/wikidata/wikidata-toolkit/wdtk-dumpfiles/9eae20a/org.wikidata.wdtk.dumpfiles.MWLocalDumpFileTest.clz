@@ -1,0 +1,20 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-dumpfiles/target/classes/org/wikidata/wdtk/dumpfiles/DumpContentType.class _ 3717207864
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-dumpfiles/target/classes/org/wikidata/wdtk/dumpfiles/DumpProcessingController.class _ 2791829259
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-dumpfiles/target/classes/org/wikidata/wdtk/dumpfiles/MwLocalDumpFile.class _ 3116562036
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-dumpfiles/target/test-classes/org/wikidata/wdtk/dumpfiles/MWLocalDumpFileTest.class _ 1129429728
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-testing/target/classes/org/wikidata/wdtk/testing/MockDirectoryManager.class _ 782552234
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-testing/target/classes/org/wikidata/wdtk/testing/MockStringContentFactory$1.class _ 39363495
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-testing/target/classes/org/wikidata/wdtk/testing/MockStringContentFactory.class _ 2873863596
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-util/target/classes/org/wikidata/wdtk/util/CompressionType.class _ 2454900698
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-util/target/classes/org/wikidata/wdtk/util/DirectoryManager.class _ 3254173209
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-util/target/classes/org/wikidata/wdtk/util/DirectoryManagerImpl.class _ 329539080
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar!/org/slf4j/ILoggerFactory.class _ 2957801382
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar!/org/slf4j/LoggerFactory.class _ 1848885649
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar!/org/slf4j/helpers/MarkerIgnoringBase.class _ 672128358
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar!/org/slf4j/helpers/NOPLogger.class _ 568114038
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar!/org/slf4j/helpers/NOPLoggerFactory.class _ 4090057152
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar!/org/slf4j/helpers/NamedLoggerBase.class _ 3924562916
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar!/org/slf4j/helpers/SubstituteLoggerFactory.class _ 1175693126
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar!/org/slf4j/helpers/Util$ClassContextSecurityManager.class _ 824175294
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar!/org/slf4j/helpers/Util.class _ 2998100576

@@ -1,0 +1,24 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/extension/Activate.class _ 3632655318
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/extension/Adaptive.class _ 831329571
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/extension/ExtensionFactory.class _ 4082055281
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/extension/ExtensionLoader.class _ 4018087867
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/extension/SPI.class _ 778514033
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/logger/Level.class _ 994937554
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/logger/Logger.class _ 3644969957
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/logger/LoggerAdapter.class _ 4239889367
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/logger/LoggerFactory.class _ 695320230
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/logger/jcl/JclLoggerAdapter.class _ 3088990308
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/logger/jdk/JdkLoggerAdapter.class _ 1865852
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/logger/log4j/Log4jLoggerAdapter.class _ 65647220
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/logger/slf4j/Slf4jLogger.class _ 3519520241
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/logger/slf4j/Slf4jLoggerAdapter.class _ 1953456656
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/logger/support/FailsafeLogger.class _ 1366894289
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/utils/Holder.class _ 2729880153
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/logger/LoggerFactoryTest.class _ 3272487053
+jar:file:/home/chopinli/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar!/org/apache/log4j/Level.class _ 1855024651
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/ILoggerFactory.class _ 2957801382
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/Logger.class _ 847523693
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/LoggerFactory.class _ 1546745782
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/helpers/NOPLogger.class _ 568114038
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/helpers/NOPLoggerFactory.class _ 4090057152

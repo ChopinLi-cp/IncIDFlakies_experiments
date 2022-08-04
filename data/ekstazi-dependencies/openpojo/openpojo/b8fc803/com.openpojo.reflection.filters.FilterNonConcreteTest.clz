@@ -1,0 +1,14 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/PojoClass.class _ 710201377
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/PojoClassFilter.class _ 159661584
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/filters/FilterChain.class _ 679889509
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/filters/FilterNonConcrete.class _ 1119658302
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/validation/affirm/Affirm.class _ 817647669
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/validation/affirm/Affirmation.class _ 259129666
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/validation/affirm/AffirmationFactory.class _ 1105227813
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/reflection/filters/FilterNonConcreteTest$PojoStubFactory.class _ 4122900871
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/reflection/filters/FilterNonConcreteTest$StubInvocationHandler.class _ 2443177980
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/reflection/filters/FilterNonConcreteTest$StubPojoClassFilter.class _ 3284527856
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/reflection/filters/FilterNonConcreteTest.class _ 1903923198
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/reflection/filters/IdentitiesAreEqual.class _ 1293625486
+jar:file:/home/chopinli/.m2/repository/org/testng/testng/6.8/testng-6.8.jar!/org/testng/Assert.class _ 2441974371

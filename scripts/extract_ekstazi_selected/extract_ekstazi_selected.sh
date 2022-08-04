@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# NOTE: This script is used to extract the information according to the input
+# NOTE: This script is used to extract the information through running ekstazi across multiple commits according to the input
 
 if [[ $1 == "" ]]; then
 	echo "arg1 - full path to the input file (eg. data/commits.csv)"
@@ -52,8 +52,9 @@ do
 		cd ${inputProj}/${slug}/${module}
 		dlist=$(ls .ekstazi-${sec_short_sha}/*.clz)
 		for line in $dlist
-		do
+		do 
 			dependentTest_tmp1=$(echo ${line#*/})
+			cp ${inputProj}/${slug}/${module}/.ekstazi-${sec_short_sha}/${dependentTest_tmp1} ${ekstaziDependenciesDir}/
 			dependentTest=$(echo ${dependentTest_tmp1%.clz})
 			print_string=$dependentTest
 			for i in $(cat ${line})
@@ -80,6 +81,19 @@ do
 							print_string=$print_string,$dep
 						fi
 					fi
+	if [[ $slug = "fhoeben/hsac-fitnesse-fixtures" ]]; then
+          if [[ $i == */wiki/fixtures/* ]]; then
+            dep_tmp1=$(echo ${i#*/wiki/fixtures/})
+            dep_tmp2=$(echo ${dep_tmp1%.class})
+            dep_tmp3=$(echo ${dep_tmp2%%\$*})
+            dep=$(echo $dep_tmp3 | sed 's/\//./g')
+            if [[ $print_string =~ ,$dep ]]; then
+              print_string=$print_string
+            else
+              print_string=$print_string,$dep
+            fi
+          fi
+        fi
 				fi
 			done
 			echo $print_string >> ${ekstaziDependenciesDir}/dependencies

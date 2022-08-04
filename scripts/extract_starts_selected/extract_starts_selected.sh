@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# NOTE: This script is used to extract the information according to the input
+# NOTE: This script is used to extract the information through running STARTs across multiple commits according to the input
 
 if [[ $1 == "" ]]; then
 	echo "arg1 - full path to the input file (eg. data/commits.csv)"
@@ -54,6 +54,7 @@ do
     if [[ ! -f ${dlist} ]]; then
       continue
     fi
+    cp ${inputProj}/${slug}/${module}/.starts-${sec_short_sha}/deps.zlc ${startsDependenciesDir}/ 
     cat $dlist | while read line
     do
       if [[ $line == file:* ]]; then
@@ -75,6 +76,18 @@ do
           dep=$(echo $dep_tmp3 | sed 's/\//./g')
           print_string=$dep,$deps
           echo $print_string >> ${startsDependenciesDir}/dependencies
+        fi
+	if [[ $slug = "fhoeben/hsac-fitnesse-fixtures" ]]; then
+          if [[ $line == */wiki/fixtures/* ]]; then
+            deps=$(echo $line | cut -d' ' -f3)
+            dep_tmp0=$(echo $line | cut -d' ' -f1)
+            dep_tmp1=$(echo ${dep_tmp0#*/wiki/fixtures/})
+            dep_tmp2=$(echo ${dep_tmp1%.class})
+            dep_tmp3=$(echo ${dep_tmp2%%\$*})
+            dep=$(echo $dep_tmp3 | sed 's/\//./g')
+            print_string=$dep,$deps
+            echo $print_string >> ${startsDependenciesDir}/dependencies
+          fi
         fi
       fi
     done

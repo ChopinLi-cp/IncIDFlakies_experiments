@@ -1,0 +1,18 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/utils/ClassHelper.class _ 3400504137
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/utils/CompatibleTypeUtils.class _ 1337361123
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/utils/PojoUtils.class _ 63245593
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/classes/com/alibaba/dubbo/common/utils/ReflectUtils.class _ 546044045
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/model/Person.class _ 3427759178
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/model/SerializablePerson.class _ 2919611338
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/model/person/BigPerson.class _ 168228158
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/model/person/FullAddress.class _ 3234723538
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/model/person/PersonInfo.class _ 3314458301
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/model/person/PersonStatus.class _ 3230172041
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/model/person/Phone.class _ 381791196
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/utils/PojoUtilsTest$Child.class _ 649667514
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/utils/PojoUtilsTest$InnerPojo.class _ 496756982
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/utils/PojoUtilsTest$ListResult.class _ 805956085
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/utils/PojoUtilsTest$Parent.class _ 1373363792
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/utils/PojoUtilsTest$TestData.class _ 3302603420
+file:/home/chopinli/project/RTS_experiments/projects/apache/incubator-dubbo/dubbo-common/target/test-classes/com/alibaba/dubbo/common/utils/PojoUtilsTest.class _ 610307440

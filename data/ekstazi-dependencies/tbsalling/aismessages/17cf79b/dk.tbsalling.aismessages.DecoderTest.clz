@@ -1,0 +1,25 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/decoder/Decoder$1.class _ 381647734
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/decoder/Decoder.class _ 841431987
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/exceptions/InvalidEncodedMessage.class _ 3224231134
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/BaseStationReport.class _ 3189969937
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/BinaryBroadcastMessage.class _ 2471641766
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/ClassBCSStaticDataReport.class _ 1015976120
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/DataLinkManagement.class _ 3906466761
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/DecodedAISMessage.class _ 3472801858
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/EncodedAISMessage.class _ 408433883
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/Interrogation.class _ 1333418425
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/PositionReport.class _ 2229630656
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/PositionReportClassAAssignedSchedule.class _ 563988560
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/PositionReportClassAResponseToInterrogation.class _ 485114448
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/PositionReportClassAScheduled.class _ 2312213720
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/ShipAndVoyageData.class _ 866176648
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/StandardClassBCSPositionReport.class _ 2008524188
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/types/AISMessageType.class _ 3112523106
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/types/IMO.class _ 1526048606
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/types/MMSI.class _ 1327468133
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/types/ManeuverIndicator.class _ 3203319474
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/types/NavigationStatus.class _ 3960665946
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/types/PositionFixingDevice.class _ 3114386087
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/classes/dk/tbsalling/aismessages/messages/types/ShipType.class _ 509388279
+file:/home/chopinli/project/RTS_experiments/projects/tbsalling/aismessages/target/test-classes/dk/tbsalling/aismessages/DecoderTest.class _ 2219199603

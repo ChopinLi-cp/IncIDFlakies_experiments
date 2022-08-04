@@ -1,0 +1,17 @@
+PLAIN_TEXT
+file:/home/chopinli/project/RTS_experiments/projects/ctco/cukes/cukes-core/target/classes/lv/ctco/cukes/core/internal/context/CaptureContext$Value.class 3434623215 lv.ctco.cukes.http.templating.TemplatingEngineTest
+file:/home/chopinli/project/RTS_experiments/projects/ctco/cukes/cukes-core/target/classes/lv/ctco/cukes/core/internal/matchers/EndsWithRegexp.class 2735509105 lv.ctco.cukes.http.matchers.EndsWithRegexpTest
+file:/home/chopinli/project/RTS_experiments/projects/ctco/cukes/cukes-core/target/classes/lv/ctco/cukes/core/internal/helpers/IO.class 1901827169 lv.ctco.cukes.http.templating.TemplatingEngineTest
+file:/home/chopinli/project/RTS_experiments/projects/ctco/cukes/cukes-core/target/classes/lv/ctco/cukes/core/internal/context/GlobalWorld.class 1023296089 lv.ctco.cukes.http.templating.TemplatingEngineTest
+file:/home/chopinli/project/RTS_experiments/projects/ctco/cukes/cukes-core/target/classes/lv/ctco/cukes/core/CukesOptions.class 3592709244 lv.ctco.cukes.http.templating.TemplatingEngineTest
+file:/home/chopinli/project/RTS_experiments/projects/ctco/cukes/cukes-http/target/test-classes/lv/ctco/cukes/http/templating/TemplatingEngineTest.class 1209298508 lv.ctco.cukes.http.templating.TemplatingEngineTest
+file:/home/chopinli/project/RTS_experiments/projects/ctco/cukes/cukes-core/target/classes/lv/ctco/cukes/core/internal/templating/TemplatingEngine.class 3579403838 lv.ctco.cukes.http.templating.TemplatingEngineTest
+file:/home/chopinli/project/RTS_experiments/projects/ctco/cukes/cukes-core/target/classes/lv/ctco/cukes/core/internal/context/CaptureContext.class 808658982 lv.ctco.cukes.http.templating.TemplatingEngineTest
+file:/home/chopinli/project/RTS_experiments/projects/ctco/cukes/cukes-core/target/classes/lv/ctco/cukes/core/internal/context/CaptureContext$Pattern.class 685398265 lv.ctco.cukes.http.templating.TemplatingEngineTest
+file:/home/chopinli/project/RTS_experiments/projects/ctco/cukes/cukes-core/target/classes/lv/ctco/cukes/core/CukesRuntimeException.class 3826616717 lv.ctco.cukes.http.templating.TemplatingEngineTest
+file:/home/chopinli/project/RTS_experiments/projects/ctco/cukes/cukes-core/target/classes/lv/ctco/cukes/core/internal/context/InflateContext.class 3050157619 lv.ctco.cukes.http.templating.TemplatingEngineTest
+file:/home/chopinli/project/RTS_experiments/projects/ctco/cukes/cukes-core/target/classes/lv/ctco/cukes/core/internal/context/GlobalWorldFacade.class 3761476112 lv.ctco.cukes.http.templating.TemplatingEngineTest
+file:/home/chopinli/project/RTS_experiments/projects/ctco/cukes/cukes-core/target/classes/lv/ctco/cukes/core/internal/helpers/Files.class 2564345282 lv.ctco.cukes.http.templating.TemplatingEngineTest
+file:/home/chopinli/project/RTS_experiments/projects/ctco/cukes/cukes-http/target/test-classes/lv/ctco/cukes/http/matchers/EndsWithRegexpTest.class 1076646171 lv.ctco.cukes.http.matchers.EndsWithRegexpTest
+file:/home/chopinli/project/RTS_experiments/projects/ctco/cukes/cukes-core/target/classes/lv/ctco/cukes/core/internal/context/InflateContext$Ignore.class 2153781826 lv.ctco.cukes.http.templating.TemplatingEngineTest
+file:/home/chopinli/project/RTS_experiments/projects/ctco/cukes/cukes-core/target/classes/lv/ctco/cukes/core/internal/matchers/EndsWithRegexp$1.class 815573899 lv.ctco.cukes.http.matchers.EndsWithRegexpTest

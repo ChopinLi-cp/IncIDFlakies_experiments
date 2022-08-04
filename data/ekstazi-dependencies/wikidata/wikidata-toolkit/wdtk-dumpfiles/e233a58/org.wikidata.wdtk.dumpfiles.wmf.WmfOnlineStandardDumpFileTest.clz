@@ -1,0 +1,24 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-dumpfiles/target/classes/org/wikidata/wdtk/dumpfiles/DumpContentType.class _ 3717207864
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-dumpfiles/target/classes/org/wikidata/wdtk/dumpfiles/MwDumpFile.class _ 3054193815
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-dumpfiles/target/classes/org/wikidata/wdtk/dumpfiles/wmf/WmfDumpFile.class _ 1721676796
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-dumpfiles/target/classes/org/wikidata/wdtk/dumpfiles/wmf/WmfOnlineStandardDumpFile.class _ 1199544144
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-dumpfiles/target/test-classes/org/wikidata/wdtk/dumpfiles/wmf/WmfOnlineStandardDumpFileTest.class _ 2874428504
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-testing/target/classes/org/wikidata/wdtk/testing/MockDirectoryManager.class _ 782552234
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-testing/target/classes/org/wikidata/wdtk/testing/MockStringContentFactory$1.class _ 39363495
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-testing/target/classes/org/wikidata/wdtk/testing/MockStringContentFactory.class _ 2873863596
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-testing/target/classes/org/wikidata/wdtk/testing/MockWebResourceFetcher.class _ 544634369
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-util/target/classes/org/wikidata/wdtk/util/CompressionType.class _ 2454900698
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-util/target/classes/org/wikidata/wdtk/util/DirectoryManager.class _ 3254173209
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-util/target/classes/org/wikidata/wdtk/util/WebResourceFetcher.class _ 3335515318
+jar:file:/home/chopinli/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar!/org/apache/commons/compress/compressors/CompressorInputStream.class _ 2971796937
+jar:file:/home/chopinli/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar!/org/apache/commons/compress/compressors/CompressorOutputStream.class _ 2510475236
+jar:file:/home/chopinli/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar!/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream$Data.class _ 3599615418
+jar:file:/home/chopinli/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar!/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.class _ 3942337311
+jar:file:/home/chopinli/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar!/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream$Data.class _ 3373193279
+jar:file:/home/chopinli/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar!/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.class _ 3295812174
+jar:file:/home/chopinli/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar!/org/apache/commons/compress/compressors/bzip2/BlockSort.class _ 1409954165
+jar:file:/home/chopinli/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar!/org/apache/commons/compress/compressors/bzip2/CRC.class _ 2638100812
+jar:file:/home/chopinli/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar!/org/objenesis/instantiator/ObjectInstantiator.class _ 2324712833
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar!/org/slf4j/Logger.class _ 847523693
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar!/org/slf4j/helpers/NOPLogger.class _ 568114038

@@ -1,0 +1,23 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/cache/CacheStorage.class _ 1314286275
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/cache/impl/WeakHashMapCacheStorage.class _ 3383591132
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/PojoClass.class _ 710201377
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/PojoField.class _ 320604336
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/PojoMethod.class _ 2326076333
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/cache/PojoCache.class _ 64592918
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/impl/PojoClassFactory.class _ 821467912
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/reflection/service/PojoClassLookupService.class _ 1348284748
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/registry/ServiceRegistrar.class _ 2145633388
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/validation/affirm/Affirm.class _ 1216720689
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/validation/affirm/Affirmation.class _ 259129666
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/validation/affirm/AffirmationFactory.class _ 1105227813
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/reflection/impl/PojoMethodImplTest.class _ 64007357
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/reflection/impl/sample/annotation/AnotherAnnotation.class _ 4140077517
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/reflection/impl/sample/annotation/SomeAnnotation.class _ 587905918
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/reflection/impl/sample/classes/AClassWithAbstractGetter.class _ 1827228556
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/reflection/impl/sample/classes/AClassWithAbstractSetter.class _ 3616942603
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/reflection/impl/sample/classes/AClassWithSyntheticMethod.class _ 3647972937
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/reflection/impl/sample/classes/ClassWithSyntheticConstructor$Builder.class _ 928579944
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/reflection/impl/sample/classes/ClassWithSyntheticConstructor.class _ 3879683018
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/reflection/impl/sample/classes/PojoMethodClass.class _ 2668345567
+jar:file:/home/chopinli/.m2/repository/org/testng/testng/6.8.8/testng-6.8.8.jar!/org/testng/Assert.class _ 668968970

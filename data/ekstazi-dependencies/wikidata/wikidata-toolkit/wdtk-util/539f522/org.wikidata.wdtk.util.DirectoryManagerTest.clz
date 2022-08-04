@@ -1,0 +1,15 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-util/target/classes/org/wikidata/wdtk/util/CompressionType.class _ 2454900698
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-util/target/classes/org/wikidata/wdtk/util/DirectoryManagerImpl$1.class _ 3291448278
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-util/target/classes/org/wikidata/wdtk/util/DirectoryManagerImpl.class _ 2209808556
+file:/home/chopinli/project/RTS_experiments/projects/wikidata/wikidata-toolkit/wdtk-util/target/test-classes/org/wikidata/wdtk/util/DirectoryManagerTest.class _ 930213881
+jar:file:/home/chopinli/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar!/org/apache/commons/compress/compressors/CompressorInputStream.class _ 2971796937
+jar:file:/home/chopinli/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar!/org/apache/commons/compress/compressors/CompressorOutputStream.class _ 2510475236
+jar:file:/home/chopinli/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar!/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream$Data.class _ 3599615418
+jar:file:/home/chopinli/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar!/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.class _ 3942337311
+jar:file:/home/chopinli/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar!/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream$Data.class _ 3373193279
+jar:file:/home/chopinli/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar!/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.class _ 3295812174
+jar:file:/home/chopinli/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar!/org/apache/commons/compress/compressors/bzip2/BlockSort.class _ 1409954165
+jar:file:/home/chopinli/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar!/org/apache/commons/compress/compressors/bzip2/CRC.class _ 2638100812
+jar:file:/home/chopinli/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar!/org/apache/commons/compress/compressors/gzip/GzipCompressorOutputStream.class _ 185294476
+jar:file:/home/chopinli/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar!/org/apache/commons/compress/compressors/gzip/GzipParameters.class _ 1691980130

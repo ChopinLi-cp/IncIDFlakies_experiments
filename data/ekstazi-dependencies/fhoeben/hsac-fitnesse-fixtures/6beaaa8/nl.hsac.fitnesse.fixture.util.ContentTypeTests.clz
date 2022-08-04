@@ -1,0 +1,13 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/fhoeben/hsac-fitnesse-fixtures/target/test-classes/nl/hsac/fitnesse/fixture/util/ContentTypeTests.class _ 444365770
+jar:file:/home/chopinli/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar!/org/apache/http/HeaderElement.class _ 4052015830
+jar:file:/home/chopinli/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar!/org/apache/http/NameValuePair.class _ 1720841023
+jar:file:/home/chopinli/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar!/org/apache/http/entity/ContentType.class _ 2547531491
+jar:file:/home/chopinli/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar!/org/apache/http/message/BasicHeaderElement.class _ 3492692981
+jar:file:/home/chopinli/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar!/org/apache/http/message/BasicHeaderValueParser.class _ 1460621431
+jar:file:/home/chopinli/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar!/org/apache/http/message/BasicNameValuePair.class _ 1860265164
+jar:file:/home/chopinli/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar!/org/apache/http/message/ParserCursor.class _ 2851018259
+jar:file:/home/chopinli/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar!/org/apache/http/message/TokenParser.class _ 970835702
+jar:file:/home/chopinli/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar!/org/apache/http/util/Args.class _ 2866759638
+jar:file:/home/chopinli/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar!/org/apache/http/util/CharArrayBuffer.class _ 2783288918
+jar:file:/home/chopinli/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar!/org/apache/http/util/TextUtils.class _ 882033147

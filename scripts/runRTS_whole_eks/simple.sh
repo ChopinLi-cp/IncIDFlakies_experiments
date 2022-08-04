@@ -1,15 +1,12 @@
 #!/usr/bin/env bash
 
-# This script is used to run RTS on iDFlakies
-
-# The output is like 
-# proj, module, test, # total tests of FIC, # total tests of Starts (selectMore=true), y/n, # total tests of Starts (selectMore=false), y/n, percentage  
-# The default running time is 10 times.
+# This script is to only run iDFlakies using tests selected by ekstazi
 
 # find . -d -name ".dtfixingtools*" | xargs rm -rf # remove all the dirty info
 
 if [[ $1 == "" ]] ; then
     echo "arg1 - full path to the test file (eg. data/commits.csv)"
+    echo "This script is to only run iDFlakies using tests selected by ekstazi"
     exit
 fi
 

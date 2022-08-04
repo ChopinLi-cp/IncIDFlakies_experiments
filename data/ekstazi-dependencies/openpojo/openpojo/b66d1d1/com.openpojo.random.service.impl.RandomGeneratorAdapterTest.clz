@@ -1,0 +1,14 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/log/impl/SLF4JLogger.class _ 1063365042
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/log/utils/MessageFormatter.class _ 1676834953
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/random/exception/RandomGeneratorException.class _ 1189826726
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/classes/com/openpojo/random/service/impl/RandomGeneratorAdapter.class _ 1010434628
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/random/service/impl/RandomGeneratorAdapterTest.class _ 2462312850
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/utils/log/EventLogger.class _ 6669135
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/utils/log/LogEvent$Priority.class _ 2260314337
+file:/home/chopinli/project/RTS_experiments/projects/openpojo/openpojo/target/test-classes/com/openpojo/utils/log/LogEvent.class _ 3247649877
+jar:file:/home/chopinli/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Appender.class _ 4158993114
+jar:file:/home/chopinli/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Level.class _ 3008150245
+jar:file:/home/chopinli/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/spi/LoggerRepository.class _ 1355483961
+jar:file:/home/chopinli/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/spi/LoggingEvent.class _ 913837377
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.13/slf4j-api-1.7.13.jar!/org/slf4j/Logger.class _ 847523693

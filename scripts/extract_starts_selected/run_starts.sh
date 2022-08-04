@@ -1,7 +1,10 @@
 #!/bin/bash
 
+# this script is used to run starts on multiple commits for collecting the deps and selected tests later
+
 if [[ $1 == "" ]]; then
   echo "arg1 - full path to the test file (eg. data/commits.csv)"
+  echo "this script is used to run starts on multiple commits for collecting the deps and selected tests later"
   exit
 fi
 

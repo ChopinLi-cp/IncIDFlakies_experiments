@@ -1,0 +1,18 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-common/elastic-job-common-core/target/classes/com/dangdang/ddframe/job/exception/JobSystemException.class _ 803707982
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-common/elastic-job-common-core/target/classes/com/dangdang/ddframe/job/executor/ShardingContexts.class _ 67700381
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-common/elastic-job-common-core/target/classes/com/dangdang/ddframe/job/util/env/TimeService.class _ 1927694799
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/api/listener/AbstractDistributeOnceElasticJobListener.class _ 2090390708
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/guarantee/GuaranteeService.class _ 1025416006
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/test-classes/com/dangdang/ddframe/job/lite/api/listener/DistributeOnceElasticJobListenerTest.class _ 1490662501
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/test-classes/com/dangdang/ddframe/job/lite/api/listener/fixture/ElasticJobListenerCaller.class _ 2832864114
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/test-classes/com/dangdang/ddframe/job/lite/api/listener/fixture/TestDistributeOnceElasticJobListener.class _ 3657312367
+jar:file:/home/chopinli/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/collect/CollectPreconditions.class _ 743944257
+jar:file:/home/chopinli/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/collect/Maps.class _ 3870661435
+jar:file:/home/chopinli/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/collect/Sets.class _ 1276444147
+jar:file:/home/chopinli/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar!/org/objenesis/instantiator/ObjectInstantiator.class _ 2324712833
+jar:file:/home/chopinli/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar!/org/objenesis/instantiator/sun/SunReflectionFactoryHelper.class _ 1344665777
+jar:file:/home/chopinli/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar!/org/objenesis/instantiator/sun/SunReflectionFactoryInstantiator.class _ 3652438191
+jar:file:/home/chopinli/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar!/org/objenesis/strategy/InstantiatorStrategy.class _ 2233841873
+jar:file:/home/chopinli/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar!/org/objenesis/strategy/PlatformDescription.class _ 3975917702
+jar:file:/home/chopinli/.m2/repository/org/unitils/unitils-core/3.4.2/unitils-core-3.4.2.jar!/org/unitils/util/ReflectionUtils.class _ 2465592419

@@ -1,0 +1,8 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-common/elastic-job-common-core/target/classes/com/dangdang/ddframe/job/exception/JobConfigurationException.class _ 2264947209
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/api/strategy/JobShardingStrategy.class _ 1820538303
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/api/strategy/JobShardingStrategyFactory.class _ 3716772551
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/api/strategy/impl/AverageAllocationJobShardingStrategy.class _ 1497545946
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/test-classes/com/dangdang/ddframe/job/lite/api/strategy/JobShardingStrategyFactoryTest.class _ 2025451019
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/test-classes/com/dangdang/ddframe/job/lite/api/strategy/fixture/InvalidJobShardingStrategy.class _ 3719833547
+jar:file:/home/chopinli/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/base/Strings.class _ 980765756

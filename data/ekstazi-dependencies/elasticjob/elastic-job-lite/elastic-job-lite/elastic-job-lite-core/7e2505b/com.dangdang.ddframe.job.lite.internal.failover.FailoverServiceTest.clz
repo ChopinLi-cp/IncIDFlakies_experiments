@@ -1,0 +1,27 @@
+# 1
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-common/elastic-job-common-core/target/classes/com/dangdang/ddframe/job/util/env/TimeService.class _ 1927694799
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/api/strategy/JobInstance.class _ 1462282173
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/config/ConfigurationService.class _ 3867112488
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/election/LeaderService.class _ 3569838392
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/execution/ExecutionService.class _ 2705894785
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/failover/FailoverNode.class _ 3275331401
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/failover/FailoverService$FailoverLeaderExecutionCallback.class _ 124296104
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/failover/FailoverService.class _ 171597280
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/instance/InstanceNode.class _ 2123724349
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/instance/InstanceService.class _ 2611639751
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/schedule/JobRegistry.class _ 2097177231
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/server/ServerNode.class _ 2662389436
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/server/ServerService.class _ 3874529522
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/sharding/ShardingService.class _ 851004741
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/storage/JobNodePath.class _ 18031989
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/classes/com/dangdang/ddframe/job/lite/internal/storage/JobNodeStorage.class _ 132189770
+file:/home/chopinli/project/RTS_experiments/projects/elasticjob/elastic-job-lite/elastic-job-lite/elastic-job-lite-core/target/test-classes/com/dangdang/ddframe/job/lite/internal/failover/FailoverServiceTest.class _ 4264144882
+jar:file:/home/chopinli/.m2/repository/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar!/ch/qos/logback/classic/Level.class _ 1380891203
+jar:file:/home/chopinli/.m2/repository/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar!/ch/qos/logback/classic/spi/EventArgUtil.class _ 1358257048
+jar:file:/home/chopinli/.m2/repository/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar!/ch/qos/logback/classic/spi/ILoggingEvent.class _ 3942730375
+jar:file:/home/chopinli/.m2/repository/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar!/ch/qos/logback/classic/spi/LoggingEvent.class _ 3432032613
+jar:file:/home/chopinli/.m2/repository/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar!/ch/qos/logback/core/Appender.class _ 1694900499
+jar:file:/home/chopinli/.m2/repository/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar!/ch/qos/logback/core/spi/FilterReply.class _ 1097641829
+jar:file:/home/chopinli/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar!/org/objenesis/instantiator/ObjectInstantiator.class _ 2324712833
+jar:file:/home/chopinli/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar!/org/slf4j/Logger.class _ 847523693
+jar:file:/home/chopinli/.m2/repository/org/unitils/unitils-core/3.4.2/unitils-core-3.4.2.jar!/org/unitils/util/ReflectionUtils.class _ 2465592419

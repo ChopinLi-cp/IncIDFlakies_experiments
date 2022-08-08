@@ -18,16 +18,15 @@ import edu.illinois.cs.testrunner.runner.Runner;
 import edu.illinois.cs.testrunner.runner.RunnerFactory;
 import edu.illinois.cs.testrunner.testobjects.TestLocator;
 import edu.illinois.cs.testrunner.util.ProjectWrapper;
+import edu.illinois.starts.data.ZLCFormat;
+import edu.illinois.starts.enums.DependencyFormat;
 import scala.collection.JavaConverters;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.lang.RuntimeException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.nio.file.StandardCopyOption;
+import java.nio.file.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -39,11 +38,11 @@ import java.util.function.Predicate;
 
 public class DetectorPlugin extends TestPlugin {
     private final Path outputPath;
-    private String coordinates;
-    private InstrumentingSmartRunner runner;
+    protected String coordinates;
+    InstrumentingSmartRunner runner;
     private static Map<Integer, List<String>> locateTestList = new HashMap<>();
     // useful for modules with JUnit 4 tests but depend on something in JUnit 5
-    private final boolean forceJUnit4 = Configuration.config().getProperty("dt.detector.forceJUnit4", false);
+    final boolean forceJUnit4 = Configuration.config().getProperty("dt.detector.forceJUnit4", false);
 
     // Don't delete this.
     // This is actually used, provided you call this class via Maven (used by the testrunner plugin)
@@ -207,14 +206,41 @@ public class DetectorPlugin extends TestPlugin {
         final ErrorLogger logger = new ErrorLogger(project);
         this.coordinates = logger.coordinates();
 
+        long startTime = System.currentTimeMillis();
         logger.runAndLogError(() -> detectorExecute(logger, project, moduleRounds(coordinates)));
+        timing(startTime);
     }
 
-    private Void detectorExecute(final ErrorLogger logger, final ProjectWrapper project, final int rounds) throws IOException {
+    protected Void detectorExecute(final ErrorLogger logger, final ProjectWrapper project, final int rounds) throws IOException {
+        defineSettings(logger, project);
+        final List<String> tests = getTests(project, this.runner.framework());
+
+        if (!tests.isEmpty()) {
+            Files.createDirectories(outputPath);
+            Files.write(DetectorPathManager.originalOrderPath(), String.join(System.lineSeparator(), getOriginalOrder(project, this.runner.framework(), true)).getBytes());
+            Files.write(DetectorPathManager.selectedTestPath(), String.join(System.lineSeparator(), tests).getBytes());
+            final Detector detector = DetectorFactory.makeDetector(this.runner, tests, rounds);
+            TestPluginUtil.project.info("Created dependent test detector (" + detector.getClass() + ").");
+            detector.writeTo(outputPath);
+        } else {
+            String errorMsg = "Module has no tests, not running detector.";
+            TestPluginUtil.project.info(errorMsg);
+            logger.writeError(errorMsg);
+        }
+
+        return null;
+    }
+
+    protected Void defineSettings(final ErrorLogger logger, final ProjectWrapper project) throws IOException {
         Files.deleteIfExists(DetectorPathManager.errorPath());
         Files.createDirectories(DetectorPathManager.cachePath());
         Files.createDirectories(DetectorPathManager.detectionResults());
 
+        loadTestRunners(logger, project); // may contain IO Exception
+        return null;
+    }
+
+    protected void loadTestRunners(final ErrorLogger logger, final ProjectWrapper project) throws IOException {
         // Currently there could two runners, one for JUnit 4 and one for JUnit 5
         // If the maven project has both JUnit 4 and JUnit 5 tests, two runners will
         // be returned
@@ -236,51 +262,42 @@ public class DetectorPlugin extends TestPlugin {
                     String errorMsg;
                     if (runners.size() == 0) {
                         errorMsg =
-                            "Module is not using a supported test framework (probably not JUnit), " +
-                            "or there is no test.";
+                                "Module is not using a supported test framework (probably not JUnit), " +
+                                        "or there is no test.";
                     } else {
                         errorMsg = "dt.detector.forceJUnit4 is true but no JUnit 4 runners found. Perhaps the project only contains JUnit 5 tests.";
                     }
                     TestPluginUtil.project.info(errorMsg);
                     logger.writeError(errorMsg);
-                    return null;
+                    return;
                 }
             } else {
                 String errorMsg;
                 if (runners.size() == 0) {
                     errorMsg =
-                        "Module is not using a supported test framework (probably not JUnit), " +
-                        "or there is no test.";
+                            "Module is not using a supported test framework (probably not JUnit), " +
+                                    "or there is no test.";
                 } else {
                     // more than one runner, currently is not supported.
                     errorMsg =
-                        "This project contains both JUnit 4 and JUnit 5 tests, which currently"
-                        + " is not supported by iDFlakies";
+                            "This project contains both JUnit 4 and JUnit 5 tests, which currently"
+                                    + " is not supported by iDFlakies";
                 }
                 TestPluginUtil.project.info(errorMsg);
                 logger.writeError(errorMsg);
-                return null;
+                return;
             }
         }
 
         if (this.runner == null) {
             this.runner = InstrumentingSmartRunner.fromRunner(runners.get(0));
         }
-        final List<String> tests = getOriginalOrder(project, this.runner.framework());
+    }
 
-        if (!tests.isEmpty()) {
-            Files.createDirectories(outputPath);
-            Files.write(DetectorPathManager.originalOrderPath(), String.join(System.lineSeparator(), tests).getBytes());
-            final Detector detector = DetectorFactory.makeDetector(this.runner, tests, rounds);
-            TestPluginUtil.project.info("Created dependent test detector (" + detector.getClass() + ").");
-            detector.writeTo(outputPath);
-        } else {
-            String errorMsg = "Module has no tests, not running detector.";
-            TestPluginUtil.project.info(errorMsg);
-            logger.writeError(errorMsg);
-        }
-
-        return null;
+    protected List<String> getTests(
+            final ProjectWrapper project,
+            TestFramework testFramework) throws IOException {
+        return getOriginalOrder(project, testFramework);
     }
 
     private static List<String> locateTests(ProjectWrapper project,
@@ -332,7 +349,6 @@ public class DetectorPlugin extends TestPlugin {
                             tests.add(classData.className + delimiter + testName);
                         }
                     }
-
                     return tests;
                 } else {
                     return locateTests(project, testFramework);
@@ -345,7 +361,7 @@ public class DetectorPlugin extends TestPlugin {
         }
     }
 
-    private static List<Runner> removeZombieRunners(
+    static List<Runner> removeZombieRunners(
             List<Runner> runners, ProjectWrapper project) throws IOException {
         // Some projects may include test frameworks without corresponding tests.
         // Filter out such zombie test frameworks (runners).
@@ -358,5 +374,43 @@ public class DetectorPlugin extends TestPlugin {
             }
         }
         return aliveRunners;
+    }
+
+    public void timing(long startTime) {
+        if(!Files.exists(DetectorPathManager.timePath())) {
+            try {
+                Files.createFile(DetectorPathManager.timePath());
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        long endTime = System.currentTimeMillis();
+        double duration = (endTime - startTime)/1000.0;
+
+        String time = duration + ",";
+        try {
+            Files.write(DetectorPathManager.timePath(), time.getBytes(),
+                    StandardOpenOption.APPEND);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void record_classes_stats(int number) {
+        if(!Files.exists(DetectorPathManager.classesStatsPath())) {
+            try {
+                Files.createFile(DetectorPathManager.classesStatsPath());
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+        String stats = number + ",";
+        try {
+            Files.write(DetectorPathManager.classesStatsPath(), stats.getBytes(),
+                    StandardOpenOption.APPEND);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

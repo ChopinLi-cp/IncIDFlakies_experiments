@@ -3,11 +3,11 @@
 # The output is like 
 # proj, module, test, # total tests of FIC, # total tests of ekstazi (selectMore=true), 
 # y/n, # total tests of ekstazi (selectMore=false), y/n, percentage  
-# NOTE: This script is used to extract the information according to the input
+# NOTE: This script is used to obtain the evaluation results for RQ2 of IncIDFlakies_E according to the input
 
 
 if [[ $1 == "" ]]; then
-    echo "arg1 - full path to the input file (eg. input.csv)"
+    echo "arg1 - full path to the input file (eg. data/commits.csv)"
     exit
 fi
 
@@ -16,7 +16,7 @@ currentDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 input=$1
 inputProj=$currentDir"/../projects"
 
-echo -n "" > $currentDir/../data/ekstazi_output.csv
+echo -n "" > $currentDir/../data/ekstazi_output_RQ2.csv
 
 sum_detection_ground_truth=0
 sum_total_tests_of_FIC=0
@@ -80,9 +80,9 @@ do
 
   POLLUTER_FILE=${currentDir}/../polluters/${test}-${fic_short_sha}.txt
 
-  if [[ -d ${inputProj}/${slug}/${module}/.dtfixingtools_${fic_short_sha}_rerun_0 ]]; then
+  if [[ -d ${inputProj}/${slug}/${module}/.dtfixingtools_baseline_${fic_short_sha} ]]; then
     time_run_iDFlakies=0.00
-    original_order_FILE=${inputProj}/${slug}/${module}/.dtfixingtools_${fic_short_sha}_rerun_0/original-order
+    original_order_FILE=${inputProj}/${slug}/${module}/.dtfixingtools_baseline_${fic_short_sha}/original-order
     if [[ -f $original_order_FILE ]]; then
       total_tests_of_FIC=$(cat $original_order_FILE | grep -c "")
     fi
@@ -97,13 +97,13 @@ do
         done < $POLLUTER_FILE 
       fi
     fi
-		FIND_FILE=${inputProj}/${slug}/${module}/.dtfixingtools_${fic_short_sha}_rerun_0/detection-results/list.txt
+		FIND_FILE=${inputProj}/${slug}/${module}/.dtfixingtools_baseline_${fic_short_sha}/detection-results/list.txt
     if [[ -f ${FIND_FILE} ]]; then
       if [[ `grep -c "${test}" $FIND_FILE` -ne '0' ]];then
         detect_or_not_normal="Y"
       fi
     fi
-    timeFILE=${inputProj}/${slug}/${module}/.dtfixingtools_${fic_short_sha}_rerun_0/time
+    timeFILE=${inputProj}/${slug}/${module}/.dtfixingtools_baseline_${fic_short_sha}/time
     if [[ -f $timeFILE ]]; then
       time_run_iDFlakies=`(cut -d',' -f1  ${timeFILE})`
 			detection_time_run_iDFlakies=${time_run_iDFlakies}
@@ -111,12 +111,12 @@ do
     fi
   fi
 
-  if [[ -d ${inputProj}/${slug}/${module}/.dtfixingtools_${fic_short_sha}_eks_rerun_1 ]]; then
-    selected_tests_FILE=${inputProj}/${slug}/${module}/.dtfixingtools_${fic_short_sha}_eks_rerun_1/selected-tests
+  if [[ -d ${inputProj}/${slug}/${module}/.dtfixingtools_eks_${fic_short_sha} ]]; then
+    selected_tests_FILE=${inputProj}/${slug}/${module}/.dtfixingtools_eks_${fic_short_sha}/selected-tests
     if [[ -f ${selected_tests_FILE} ]]; then
       total_tests_of_ekstaziFalse=$(cat $selected_tests_FILE | grep -c "")
     fi
-    FIND_FILE=${inputProj}/${slug}/${module}/.dtfixingtools_${fic_short_sha}_eks_rerun_1/detection-results/list.txt
+    FIND_FILE=${inputProj}/${slug}/${module}/.dtfixingtools_eks_${fic_short_sha}/detection-results/list.txt
     if [[ -f ${FIND_FILE} ]]; then
       if [[ `grep -c "${test}" $FIND_FILE` -ne '0' ]];then
         detect_or_not_ekstaziFalse="Y"
@@ -138,7 +138,7 @@ do
     if [ ${total_tests_of_ekstaziFalse} != "n/a" -a ${total_tests_of_FIC} != "n/a" -a ${total_tests_of_FIC} != "0" ]; then
       percentage_ekstaziFalse=$(echo "scale=2; 100*${total_tests_of_ekstaziFalse}/${total_tests_of_FIC}" | bc -l)
     fi
-    timeFILE=${inputProj}/${slug}/${module}/.dtfixingtools_${fic_short_sha}_eks_rerun_1/time
+    timeFILE=${inputProj}/${slug}/${module}/.dtfixingtools_eks_${fic_short_sha}/time
     if [[ -f $timeFILE ]]; then
       analysis_time_ekstaziFalse=`(cut -d',' -f1  ${timeFILE})`
       detection_time_ekstaziFalse=`(cut -d',' -f2  ${timeFILE})`
@@ -149,12 +149,12 @@ do
   fi
 
 
-  if [[ -d ${inputProj}/${slug}/${module}/.dtfixingtools_${fic_short_sha}_eks_rerun_2 ]]; then
-    selected_tests_FILE=${inputProj}/${slug}/${module}/.dtfixingtools_${fic_short_sha}_eks_rerun_2/selected-tests
+  if [[ -d ${inputProj}/${slug}/${module}/.dtfixingtools_eks_plus_${fic_short_sha} ]]; then
+    selected_tests_FILE=${inputProj}/${slug}/${module}/.dtfixingtools_eks_plus_${fic_short_sha}/selected-tests
     if [[ -f $selected_tests_FILE ]]; then
       total_tests_of_ekstaziWithReachableStaticFields=$(cat $selected_tests_FILE | grep -c "")
     fi
-    FIND_FILE=${inputProj}/${slug}/${module}/.dtfixingtools_${fic_short_sha}_eks_rerun_2/detection-results/list.txt
+    FIND_FILE=${inputProj}/${slug}/${module}/.dtfixingtools_eks_plus_${fic_short_sha}/detection-results/list.txt
     if [[ -f $FIND_FILE ]]; then
       if [ `grep -c "$test" $FIND_FILE` -ne '0' ];then
         detect_or_not_ekstaziWithReachableStaticFields="Y"
@@ -176,7 +176,7 @@ do
     if [ ${total_tests_of_ekstaziWithReachableStaticFields} != "n/a" -a ${total_tests_of_FIC} != "n/a" -a ${total_tests_of_FIC} != "0" ]; then
       percentage_ekstaziWithReachableStaticFields=$(echo "scale=2; 100*${total_tests_of_ekstaziWithReachableStaticFields}/${total_tests_of_FIC}" | bc -l)
     fi
-    timeFILE=${inputProj}/${slug}/${module}/.dtfixingtools_${fic_short_sha}_eks_rerun_2/time
+    timeFILE=${inputProj}/${slug}/${module}/.dtfixingtools_eks_plus_${fic_short_sha}/time
     if [[ -f $timeFILE ]]; then
       analysis_time_ekstaziWithReachableStaticFields=`(cut -d',' -f1  ${timeFILE})`
       detection_time_ekstaziWithReachableStaticFields=`(cut -d',' -f2  ${timeFILE})`
@@ -188,7 +188,7 @@ do
 
 
   full_string="$slug,$module,$test,$total_tests_of_FIC,$percentage_normal,$detection_ground_truth,$detect_or_not_normal,$time_run_iDFlakies,$analysis_time_run_iDFlakies,$detection_time_run_iDFlakies,$percentage_of_time_normal,$total_tests_of_ekstaziFalse,$percentage_ekstaziFalse,$ground_truth_ekstaziFalse,$detect_or_not_ekstaziFalse,$total_time_ekstaziFalse,$analysis_time_ekstaziFalse,$detection_time_ekstaziFalse,$percentage_of_time_ekstaziFalse,$total_tests_of_ekstaziWithReachableStaticFields,$percentage_ekstaziWithReachableStaticFields,$ground_truth_ekstaziWithReachableStaticFields,$detect_or_not_ekstaziWithReachableStaticFields,$total_time_ekstaziWithReachableStaticFields,$analysis_time_ekstaziWithReachableStaticFields,$detection_time_ekstaziWithReachableStaticFields,$percentage_of_time_ekstaziWithReachableStaticFields"
-  echo $full_string >> $currentDir/../data/ekstazi_output.csv
+  echo $full_string >> $currentDir/../data/ekstazi_output_RQ2.csv
 
   if [[ ${total_tests_of_ekstaziFalse} != "n/a" ]]; then
     sum_total_tests_of_FIC=$(echo "${sum_total_tests_of_FIC}+${total_tests_of_FIC}" | bc -l)

@@ -183,7 +183,7 @@ do
   percentage_startsFalse=$(echo "${sum_percentage_of_test_startsFalse}/${divisor}" | bc -l)
   percentage_of_time_startsFalse=$(echo "${sum_percentage_of_time_startsFalse}/${divisor}" | bc -l) 
   percentage_startsWithReachableStaticFields=$(echo "${sum_percentage_of_test_startsWithReachableStaticFields}/${divisor}" | bc -l)
-  percentage_of_time_startsWithReachableStaticFields=$(echo "${total_sum_percentage_of_time_startsWithReachableStaticFields}/${divisor}" | bc -l)
+  percentage_of_time_startsWithReachableStaticFields=$(echo "${sum_percentage_of_time_startsWithReachableStaticFields}/${divisor}" | bc -l)
   full_string="$slug,$module,$fic_short_sha,$avg_tests_of_normal,$percentage_normal,$avg_time_run_iDFlakies,$avg_analysis_time_run_iDFlakies,$avg_detection_time_run_iDFlakies,$percentage_of_time_normal,$avg_tests_of_startsFalse,$percentage_startsFalse,$avg_total_time_startsFalse,$avg_analysis_time_startsFalse,$avg_detection_time_startsFalse,$percentage_of_time_startsFalse,$avg_tests_of_startsWithReachableStaticFields,$percentage_startsWithReachableStaticFields,$avg_total_time_startsWithReachableStaticFields,$avg_analysis_time_startsWithReachableStaticFields,$avg_detection_time_startsWithReachableStaticFields,$percentage_of_time_startsWithReachableStaticFields"
   echo $full_string >> $currentDir/../../data/starts_output_RQ1.csv
 

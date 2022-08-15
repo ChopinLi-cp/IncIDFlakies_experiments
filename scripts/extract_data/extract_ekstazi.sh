@@ -26,16 +26,12 @@ sum_total_time_run_iDFlakies=0.00
 average_time_run_iDFlakies=0.00
 ant_total_select_tests_normal=0
 ant_avg_select_tests_normal=0
-sum_percentage_of_test_ekstaziWithReachableStaticFields=0.00
-sum_percentage_of_time_ekstaziWithReachableStaticFields=0.00
 sum_total_tests_of_ekstaziWithReachableStaticFields=0
 sum_percentage_ekstaziWithReachableStaticFields=0.00
 sum_total_time_ekstaziWithReachableStaticFields=0.00
 average_percentage_of_time_ekstaziWithReachableStaticFields=0.00
 ant_total_select_tests_ekstaziWithReachableStaticFields=0
 ant_avg_select_tests_ekstaziWithReachableStaticFields=0
-sum_percentage_of_test_ekstaziFalse=0.00
-sum_percentage_of_time_ekstaziFalse=0.00
 sum_total_tests_of_ekstaziFalse=0
 sum_percentage_ekstaziFalse=0.00
 sum_total_time_ekstaziFalse=0.00
@@ -44,8 +40,12 @@ ant_total_select_tests_ekstaziFalse=0
 ant_avg_select_tests_ekstaziFalse=0
 num_of_lines=0
 whole_divisor=0
+total_sum_percentage_of_test_ekstaziFalse=0.00
+total_sum_percentage_of_time_ekstaziFalse=0.00
+total_sum_percentage_of_test_ekstaziWithReachableStaticFields=0.00
+total_sum_percentage_of_time_ekstaziWithReachableStaticFields=0.00
 
-echo "# proj, module, fic_sha, # tests selected (normal), % tests selected from normal, overall time, analysis time, detection time, % overall time from normal, # tests selected (ekstazi), % tests selected from normal, overall time, analysis time, detection time, % overall time from normal, # tests selected (ekstazi+reachableStaticFields), % tests selected from normal, overall time, analysis time, detection time, % overall time from normal"  >> $currentDir/../../data/ekstazi_output_RQ1.csv
+echo "# proj, module, fic_sha, # tests selected (normal), % tests selected from normal, overall time, analysis time, detection time, % overall time from normal, # tests selected (ekstazi), % tests selected from normal, overall time, analysis time, detection time, % overall time from normal, # tests selected (IncIDFlakies_E), % tests selected from normal, overall time, analysis time, detection time, % overall time from normal"  >> $currentDir/../../data/ekstazi_output_RQ1.csv
 while IFS= read -r line
 do
   if [[ ${line} =~ ^\# ]]; then 
@@ -95,6 +95,11 @@ do
   avg_detection_time_ekstaziWithReachableStaticFields=0.00
   percentage_of_time_ekstaziWithReachableStaticFields=0.00
   
+  sum_percentage_of_test_ekstaziFalse=0.00
+  sum_percentage_of_time_ekstaziFalse=0.00
+  sum_percentage_of_test_ekstaziWithReachableStaticFields=0.00
+  sum_percentage_of_time_ekstaziWithReachableStaticFields=0.00
+
   divisor=0
   for secondsha in $(echo ${line} | cut -d',' -f3-8 | sed 's;,; ;g');
   do 
@@ -175,10 +180,10 @@ do
   
   avg_detection_time_run_iDFlakies=${avg_time_run_iDFlakies}
 
-  percentage_ekstaziFalse=$(echo "100*${total_tests_of_ekstaziFalse}/${total_tests_of_normal}" | bc -l)
-  percentage_of_time_ekstaziFalse=$(echo "100*${total_time_ekstaziFalse}/${time_run_iDFlakies}" | bc -l) 
-  percentage_ekstaziWithReachableStaticFields=$(echo "100*${total_tests_of_ekstaziWithReachableStaticFields}/${total_tests_of_normal}" | bc -l)
-  percentage_of_time_ekstaziWithReachableStaticFields=$(echo "100*${total_time_ekstaziWithReachableStaticFields}/${time_run_iDFlakies}" | bc -l)
+  percentage_ekstaziFalse=$(echo "${sum_percentage_of_test_ekstaziFalse}/${divisor}" | bc -l)
+  percentage_of_time_ekstaziFalse=$(echo "${sum_percentage_of_time_ekstaziFalse}/${divisor}" | bc -l) 
+  percentage_ekstaziWithReachableStaticFields=$(echo "${sum_percentage_of_test_ekstaziWithReachableStaticFields}/${divisor}" | bc -l)
+  percentage_of_time_ekstaziWithReachableStaticFields=$(echo "${total_sum_percentage_of_time_ekstaziWithReachableStaticFields}/${divisor}" | bc -l)
   full_string="$slug,$module,$fic_short_sha,$avg_tests_of_normal,$percentage_normal,$avg_time_run_iDFlakies,$avg_analysis_time_run_iDFlakies,$avg_detection_time_run_iDFlakies,$percentage_of_time_normal,$avg_tests_of_ekstaziFalse,$percentage_ekstaziFalse,$avg_total_time_ekstaziFalse,$avg_analysis_time_ekstaziFalse,$avg_detection_time_ekstaziFalse,$percentage_of_time_ekstaziFalse,$avg_tests_of_ekstaziWithReachableStaticFields,$percentage_ekstaziWithReachableStaticFields,$avg_total_time_ekstaziWithReachableStaticFields,$avg_analysis_time_ekstaziWithReachableStaticFields,$avg_detection_time_ekstaziWithReachableStaticFields,$percentage_of_time_ekstaziWithReachableStaticFields"
   echo $full_string >> $currentDir/../../data/ekstazi_output_RQ1.csv
 
@@ -187,6 +192,10 @@ do
     sum_total_tests_of_ekstaziFalse=$(echo "${sum_total_tests_of_ekstaziFalse}+${total_tests_of_ekstaziFalse}" | bc -l)
     sum_total_tests_of_ekstaziWithReachableStaticFields=$(echo "${sum_total_tests_of_ekstaziWithReachableStaticFields}+${total_tests_of_ekstaziWithReachableStaticFields}" | bc -l)
     num_of_lines=$((num_of_lines + 1))
+    total_sum_percentage_of_test_ekstaziFalse=$(echo "${total_sum_percentage_of_test_ekstaziFalse}+${sum_percentage_of_test_ekstaziFalse}" | bc -l)
+    total_sum_percentage_of_time_ekstaziFalse=$(echo "${total_sum_percentage_of_time_ekstaziFalse}+${sum_percentage_of_time_ekstaziFalse}" | bc -l)
+    total_sum_percentage_of_test_ekstaziWithReachableStaticFields=$(echo "${total_sum_percentage_of_test_ekstaziWithReachableStaticFields}+${sum_percentage_of_test_ekstaziWithReachableStaticFields}" | bc -l)
+    total_sum_percentage_of_time_ekstaziWithReachableStaticFields=$(echo "${total_sum_percentage_of_time_ekstaziWithReachableStaticFields}+${sum_percentage_of_time_ekstaziWithReachableStaticFields}" | bc -l)
   fi
 
 done < tmp.csv # (cut -d',' -f1,2,4- ${input} | sort -u)
@@ -203,10 +212,10 @@ average_time_ekstaziFalse=$(echo "${sum_total_time_ekstaziFalse}/(${whole_diviso
 average_time_ekstaziWithReachableStaticFields=$(echo "${sum_total_time_ekstaziWithReachableStaticFields}/(${whole_divisor})" | bc -l)
 
 # unweighted percentage
-ant_avg_percentage_ekstaziFalse=$(echo "${sum_percentage_of_test_ekstaziFalse}/(${whole_divisor})" | bc -l)
-ant_avg_percentage_of_time_ekstaziFalse=$(echo "${sum_percentage_of_time_ekstaziFalse}/(${whole_divisor})" | bc -l)
-ant_avg_percentage_ekstaziWithReachableStaticFields=$(echo "${sum_percentage_of_test_ekstaziWithReachableStaticFields}/(${whole_divisor})" | bc -l)
-ant_avg_percentage_of_time_ekstaziWithReachableStaticFields=$(echo "${sum_percentage_of_time_ekstaziWithReachableStaticFields}/(${whole_divisor})" | bc -l)
+ant_avg_percentage_ekstaziFalse=$(echo "${total_sum_percentage_of_test_ekstaziFalse}/(${whole_divisor})" | bc -l)
+ant_avg_percentage_of_time_ekstaziFalse=$(echo "${total_sum_percentage_of_time_ekstaziFalse}/(${whole_divisor})" | bc -l)
+ant_avg_percentage_ekstaziWithReachableStaticFields=$(echo "${total_sum_percentage_of_test_ekstaziWithReachableStaticFields}/(${whole_divisor})" | bc -l)
+ant_avg_percentage_of_time_ekstaziWithReachableStaticFields=$(echo "${total_sum_percentage_of_time_ekstaziWithReachableStaticFields}/(${whole_divisor})" | bc -l)
 
 ant_avg_select_tests_normal=$(echo "${sum_total_tests_of_normal}/(${whole_divisor})" | bc -l)
 ant_avg_select_tests_ekstaziFalse=$(echo "${sum_total_tests_of_ekstaziFalse}/(${whole_divisor})" | bc -l)

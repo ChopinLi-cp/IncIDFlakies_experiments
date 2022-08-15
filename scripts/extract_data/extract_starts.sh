@@ -8,7 +8,7 @@
 
 if [[ $1 == "" ]]; then
     echo "arg1 - full path to the input file (eg. commits.csv)"
-    echo "this script is to collect the output file for starts part in RQ1"
+    echo "this script is to collect the output file for starts part in the RQ1"
     exit
 fi
 
@@ -26,16 +26,12 @@ sum_total_time_run_iDFlakies=0.00
 average_time_run_iDFlakies=0.00
 ant_total_select_tests_normal=0
 ant_avg_select_tests_normal=0
-sum_percentage_of_test_startsWithReachableStaticFields=0.00
-sum_percentage_of_time_startsWithReachableStaticFields=0.00
 sum_total_tests_of_startsWithReachableStaticFields=0
 sum_percentage_startsWithReachableStaticFields=0.00
 sum_total_time_startsWithReachableStaticFields=0.00
 average_percentage_of_time_startsWithReachableStaticFields=0.00
 ant_total_select_tests_startsWithReachableStaticFields=0
 ant_avg_select_tests_startsWithReachableStaticFields=0
-sum_percentage_of_test_startsFalse=0.00
-sum_percentage_of_time_startsFalse=0.00
 sum_total_tests_of_startsFalse=0
 sum_percentage_startsFalse=0.00
 sum_total_time_startsFalse=0.00
@@ -44,8 +40,12 @@ ant_total_select_tests_startsFalse=0
 ant_avg_select_tests_startsFalse=0
 num_of_lines=0
 whole_divisor=0
+total_sum_percentage_of_test_startsFalse=0.00
+total_sum_percentage_of_time_startsFalse=0.00
+total_sum_percentage_of_test_startsWithReachableStaticFields=0.00
+total_sum_percentage_of_time_startsWithReachableStaticFields=0.00
 
-echo "# proj, module, fic_sha, # tests selected (normal), % tests selected from normal, overall time, analysis time, detection time, % overall time from normal, # tests selected (starts), % tests selected from normal, overall time, analysis time, detection time, % overall time from normal, # tests selected (starts+reachableStaticFields), % tests selected from normal, overall time, analysis time, detection time, % overall time from normal"  >> $currentDir/../../data/starts_output_RQ1.csv
+echo "# proj, module, fic_sha, # tests selected (normal), % tests selected from normal, overall time, analysis time, detection time, % overall time from normal, # tests selected (starts), % tests selected from normal, overall time, analysis time, detection time, % overall time from normal, # tests selected (IncIDFlakies_E), % tests selected from normal, overall time, analysis time, detection time, % overall time from normal"  >> $currentDir/../../data/starts_output_RQ1.csv
 while IFS= read -r line
 do
   if [[ ${line} =~ ^\# ]]; then 
@@ -95,6 +95,11 @@ do
   avg_detection_time_startsWithReachableStaticFields=0.00
   percentage_of_time_startsWithReachableStaticFields=0.00
   
+  sum_percentage_of_test_startsFalse=0.00
+  sum_percentage_of_time_startsFalse=0.00
+  sum_percentage_of_test_startsWithReachableStaticFields=0.00
+  sum_percentage_of_time_startsWithReachableStaticFields=0.00
+
   divisor=0
   for secondsha in $(echo ${line} | cut -d',' -f3-8 | sed 's;,; ;g');
   do 
@@ -175,10 +180,10 @@ do
   
   avg_detection_time_run_iDFlakies=${avg_time_run_iDFlakies}
 
-  percentage_startsFalse=$(echo "100*${total_tests_of_startsFalse}/${total_tests_of_normal}" | bc -l)
-  percentage_of_time_startsFalse=$(echo "100*${total_time_startsFalse}/${time_run_iDFlakies}" | bc -l) 
-  percentage_startsWithReachableStaticFields=$(echo "100*${total_tests_of_startsWithReachableStaticFields}/${total_tests_of_normal}" | bc -l)
-  percentage_of_time_startsWithReachableStaticFields=$(echo "100*${total_time_startsWithReachableStaticFields}/${time_run_iDFlakies}" | bc -l)
+  percentage_startsFalse=$(echo "${sum_percentage_of_test_startsFalse}/${divisor}" | bc -l)
+  percentage_of_time_startsFalse=$(echo "${sum_percentage_of_time_startsFalse}/${divisor}" | bc -l) 
+  percentage_startsWithReachableStaticFields=$(echo "${sum_percentage_of_test_startsWithReachableStaticFields}/${divisor}" | bc -l)
+  percentage_of_time_startsWithReachableStaticFields=$(echo "${total_sum_percentage_of_time_startsWithReachableStaticFields}/${divisor}" | bc -l)
   full_string="$slug,$module,$fic_short_sha,$avg_tests_of_normal,$percentage_normal,$avg_time_run_iDFlakies,$avg_analysis_time_run_iDFlakies,$avg_detection_time_run_iDFlakies,$percentage_of_time_normal,$avg_tests_of_startsFalse,$percentage_startsFalse,$avg_total_time_startsFalse,$avg_analysis_time_startsFalse,$avg_detection_time_startsFalse,$percentage_of_time_startsFalse,$avg_tests_of_startsWithReachableStaticFields,$percentage_startsWithReachableStaticFields,$avg_total_time_startsWithReachableStaticFields,$avg_analysis_time_startsWithReachableStaticFields,$avg_detection_time_startsWithReachableStaticFields,$percentage_of_time_startsWithReachableStaticFields"
   echo $full_string >> $currentDir/../../data/starts_output_RQ1.csv
 
@@ -187,6 +192,10 @@ do
     sum_total_tests_of_startsFalse=$(echo "${sum_total_tests_of_startsFalse}+${total_tests_of_startsFalse}" | bc -l)
     sum_total_tests_of_startsWithReachableStaticFields=$(echo "${sum_total_tests_of_startsWithReachableStaticFields}+${total_tests_of_startsWithReachableStaticFields}" | bc -l)
     num_of_lines=$((num_of_lines + 1))
+    total_sum_percentage_of_test_startsFalse=$(echo "${total_sum_percentage_of_test_startsFalse}+${sum_percentage_of_test_startsFalse}" | bc -l)
+    total_sum_percentage_of_time_startsFalse=$(echo "${total_sum_percentage_of_time_startsFalse}+${sum_percentage_of_time_startsFalse}" | bc -l)
+    total_sum_percentage_of_test_startsWithReachableStaticFields=$(echo "${total_sum_percentage_of_test_startsWithReachableStaticFields}+${sum_percentage_of_test_startsWithReachableStaticFields}" | bc -l)
+    total_sum_percentage_of_time_startsWithReachableStaticFields=$(echo "${total_sum_percentage_of_time_startsWithReachableStaticFields}+${sum_percentage_of_time_startsWithReachableStaticFields}" | bc -l)
   fi
 
 done < tmp.csv # (cut -d',' -f1,2,4- ${input} | sort -u)
@@ -203,10 +212,10 @@ average_time_startsFalse=$(echo "${sum_total_time_startsFalse}/(${whole_divisor}
 average_time_startsWithReachableStaticFields=$(echo "${sum_total_time_startsWithReachableStaticFields}/(${whole_divisor})" | bc -l)
 
 # unweighted percentage
-ant_avg_percentage_startsFalse=$(echo "${sum_percentage_of_test_startsFalse}/(${whole_divisor})" | bc -l)
-ant_avg_percentage_of_time_startsFalse=$(echo "${sum_percentage_of_time_startsFalse}/(${whole_divisor})" | bc -l)
-ant_avg_percentage_startsWithReachableStaticFields=$(echo "${sum_percentage_of_test_startsWithReachableStaticFields}/(${whole_divisor})" | bc -l)
-ant_avg_percentage_of_time_startsWithReachableStaticFields=$(echo "${sum_percentage_of_time_startsWithReachableStaticFields}/(${whole_divisor})" | bc -l)
+ant_avg_percentage_startsFalse=$(echo "${total_sum_percentage_of_test_startsFalse}/(${whole_divisor})" | bc -l)
+ant_avg_percentage_of_time_startsFalse=$(echo "${total_sum_percentage_of_time_startsFalse}/(${whole_divisor})" | bc -l)
+ant_avg_percentage_startsWithReachableStaticFields=$(echo "${total_sum_percentage_of_test_startsWithReachableStaticFields}/(${whole_divisor})" | bc -l)
+ant_avg_percentage_of_time_startsWithReachableStaticFields=$(echo "${total_sum_percentage_of_time_startsWithReachableStaticFields}/(${whole_divisor})" | bc -l)
 
 ant_avg_select_tests_normal=$(echo "${sum_total_tests_of_normal}/(${whole_divisor})" | bc -l)
 ant_avg_select_tests_startsFalse=$(echo "${sum_total_tests_of_startsFalse}/(${whole_divisor})" | bc -l)

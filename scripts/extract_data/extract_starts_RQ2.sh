@@ -14,9 +14,9 @@ fi
 currentDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 input=$1
-inputProj=$currentDir"/../projects"
+inputProj=$currentDir"/../../projects"
 
-echo -n "" > $currentDir/../data/starts_output_RQ2.csv
+echo -n "" > $currentDir/../../data/starts_output_RQ2.csv
 
 sum_detection_ground_truth=0
 sum_total_tests_of_FIC=0
@@ -36,7 +36,7 @@ sum_time_startsFalse=0.00
 average_percentage_of_time_startsFalse=0.00
 num_of_lines=0
 
-echo "# proj, module, test, # tests selected (normal), % tests selected from normal, ground truth achieved?, empirical achieved?, overall time, analysis time, detection time, % overall time from normal, # tests selected (starts), % tests selected from normal, ground truth achieved?, empirical achieved?, overall time, analysis time, detection time, % overall time from normal, # tests selected (IncIDFlakies_E), % tests selected from normal, ground truth achieved?, empirical achieved?, overall time, analysis time, detection time, % overall time from normal"  >> $currentDir/../data/starts_output_RQ2.csv
+echo "# proj, module, test, # tests selected (normal), % tests selected from normal, ground truth achieved?, empirical achieved?, overall time, analysis time, detection time, % overall time from normal, # tests selected (starts), % tests selected from normal, ground truth achieved?, empirical achieved?, overall time, analysis time, detection time, % overall time from normal, # tests selected (IncIDFlakies_E), % tests selected from normal, ground truth achieved?, empirical achieved?, overall time, analysis time, detection time, % overall time from normal"  >> $currentDir/../../data/starts_output_RQ2.csv
 while IFS= read -r line
 do
   if [[ ${line} =~ ^\# ]]; then 
@@ -78,7 +78,7 @@ do
   detection_time_startsWithReachableStaticFields=0.00
   percentage_of_time_startsWithReachableStaticFields=0.00
 
-  POLLUTER_FILE=${currentDir}/../polluters/${test}-${fic_short_sha}.txt
+  POLLUTER_FILE=${currentDir}/../../polluters/${test}-${fic_short_sha}.txt
 
   if [[ -d ${inputProj}/${slug}/${module}/.dtfixingtools_baseline_${fic_short_sha} ]]; then
     time_run_iDFlakies=0.00
@@ -188,7 +188,7 @@ do
 
 
   full_string="$slug,$module,$test,$total_tests_of_FIC,$percentage_normal,$detection_ground_truth,$detect_or_not_normal,$time_run_iDFlakies,$analysis_time_run_iDFlakies,$detection_time_run_iDFlakies,$percentage_of_time_normal,$total_tests_of_startsFalse,$percentage_startsFalse,$ground_truth_startsFalse,$detect_or_not_startsFalse,$total_time_startsFalse,$analysis_time_startsFalse,$detection_time_startsFalse,$percentage_of_time_startsFalse,$total_tests_of_startsWithReachableStaticFields,$percentage_startsWithReachableStaticFields,$ground_truth_startsWithReachableStaticFields,$detect_or_not_startsWithReachableStaticFields,$total_time_startsWithReachableStaticFields,$analysis_time_startsWithReachableStaticFields,$detection_time_startsWithReachableStaticFields,$percentage_of_time_startsWithReachableStaticFields"
-  echo $full_string >> $currentDir/../data/starts_output_RQ2.csv
+  echo $full_string >> $currentDir/../../data/starts_output_RQ2.csv
 
   if [[ ${total_tests_of_startsFalse} != "n/a" ]]; then
     sum_total_tests_of_FIC=$(echo "${sum_total_tests_of_FIC}+${total_tests_of_FIC}" | bc -l)
@@ -223,4 +223,4 @@ sum_percentage_startsWithReachableStaticFields=$(echo "scale=2; 100*${sum_total_
 sum_percentage_startsFalse=$(echo "scale=2; 100*${sum_total_tests_of_startsFalse}/${sum_total_tests_of_FIC}" | bc -l)
 
 sum_full_string="Overall,$num_of_lines,,$sum_total_tests_of_FIC,100.00,$sum_detection_ground_truth,,$average_time_run_iDFlakies,0,$average_time_run_iDFlakies,100.00,$sum_total_tests_of_startsFalse,$sum_percentage_startsFalse,$sum_ground_truth_startsFalse,$sum_detect_or_not_startsFalse,,,,$average_percentage_of_time_startsFalse,$sum_total_tests_of_startsWithReachableStaticFields,$sum_percentage_startsWithReachableStaticFields,$sum_ground_truth_startsWithReachableStaticFields,$sum_detect_or_not_startsWithReachableStaticFields,,,,$average_percentage_of_time_startsWithReachableStaticFields"
-echo $sum_full_string >> $currentDir/../data/starts_output_RQ2.csv
+echo $sum_full_string >> $currentDir/../../data/starts_output_RQ2.csv

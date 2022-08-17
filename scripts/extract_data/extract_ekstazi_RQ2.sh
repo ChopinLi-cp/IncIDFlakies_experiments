@@ -14,9 +14,9 @@ fi
 currentDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 input=$1
-inputProj=$currentDir"/../projects"
+inputProj=$currentDir"/../../projects"
 
-echo -n "" > $currentDir/../data/ekstazi_output_RQ2.csv
+echo -n "" > $currentDir/../../data/ekstazi_output_RQ2.csv
 
 sum_detection_ground_truth=0
 sum_total_tests_of_FIC=0
@@ -36,7 +36,7 @@ sum_time_ekstaziFalse=0.00
 average_percentage_of_time_ekstaziFalse=0.00
 num_of_lines=0
 
-echo "# proj, module, test, # tests selected (normal), % tests selected from normal, ground truth achieved?, empirical achieved?, overall time, analysis time, detection time, % overall time from normal, # tests selected (ekstazi), % tests selected from normal, ground truth achieved?, empirical achieved?, overall time, analysis time, detection time, % overall time from normal, # tests selected (IncIDFlakies_E), % tests selected from normal, ground truth achieved?, empirical achieved?, overall time, analysis time, detection time, % overall time from normal"  >> $currentDir/../data/ekstazi_output_RQ2.csv
+echo "# proj, module, test, # tests selected (normal), % tests selected from normal, ground truth achieved?, empirical achieved?, overall time, analysis time, detection time, % overall time from normal, # tests selected (ekstazi), % tests selected from normal, ground truth achieved?, empirical achieved?, overall time, analysis time, detection time, % overall time from normal, # tests selected (IncIDFlakies_E), % tests selected from normal, ground truth achieved?, empirical achieved?, overall time, analysis time, detection time, % overall time from normal"  >> $currentDir/../../data/ekstazi_output_RQ2.csv
 while IFS= read -r line
 do
   if [[ ${line} =~ ^\# ]]; then 
@@ -78,7 +78,7 @@ do
   detection_time_ekstaziWithReachableStaticFields=0.00
   percentage_of_time_ekstaziWithReachableStaticFields=0.00
 
-  POLLUTER_FILE=${currentDir}/../polluters/${test}-${fic_short_sha}.txt
+  POLLUTER_FILE=${currentDir}/../../polluters/${test}-${fic_short_sha}.txt
 
   if [[ -d ${inputProj}/${slug}/${module}/.dtfixingtools_baseline_${fic_short_sha} ]]; then
     time_run_iDFlakies=0.00
@@ -188,7 +188,7 @@ do
 
 
   full_string="$slug,$module,$test,$total_tests_of_FIC,$percentage_normal,$detection_ground_truth,$detect_or_not_normal,$time_run_iDFlakies,$analysis_time_run_iDFlakies,$detection_time_run_iDFlakies,$percentage_of_time_normal,$total_tests_of_ekstaziFalse,$percentage_ekstaziFalse,$ground_truth_ekstaziFalse,$detect_or_not_ekstaziFalse,$total_time_ekstaziFalse,$analysis_time_ekstaziFalse,$detection_time_ekstaziFalse,$percentage_of_time_ekstaziFalse,$total_tests_of_ekstaziWithReachableStaticFields,$percentage_ekstaziWithReachableStaticFields,$ground_truth_ekstaziWithReachableStaticFields,$detect_or_not_ekstaziWithReachableStaticFields,$total_time_ekstaziWithReachableStaticFields,$analysis_time_ekstaziWithReachableStaticFields,$detection_time_ekstaziWithReachableStaticFields,$percentage_of_time_ekstaziWithReachableStaticFields"
-  echo $full_string >> $currentDir/../data/ekstazi_output_RQ2.csv
+  echo $full_string >> $currentDir/../../data/ekstazi_output_RQ2.csv
 
   if [[ ${total_tests_of_ekstaziFalse} != "n/a" ]]; then
     sum_total_tests_of_FIC=$(echo "${sum_total_tests_of_FIC}+${total_tests_of_FIC}" | bc -l)
@@ -223,4 +223,4 @@ sum_percentage_ekstaziWithReachableStaticFields=$(echo "scale=2; 100*${sum_total
 sum_percentage_ekstaziFalse=$(echo "scale=2; 100*${sum_total_tests_of_ekstaziFalse}/${sum_total_tests_of_FIC}" | bc -l)
 
 sum_full_string="Overall,$num_of_lines,,$sum_total_tests_of_FIC,100.00,$sum_detection_ground_truth,,$average_time_run_iDFlakies,0,$average_time_run_iDFlakies,100.00,$sum_total_tests_of_ekstaziFalse,$sum_percentage_ekstaziFalse,$sum_ground_truth_ekstaziFalse,$sum_detect_or_not_ekstaziFalse,,,,$average_percentage_of_time_ekstaziFalse,$sum_total_tests_of_ekstaziWithReachableStaticFields,$sum_percentage_ekstaziWithReachableStaticFields,$sum_ground_truth_ekstaziWithReachableStaticFields,$sum_detect_or_not_ekstaziWithReachableStaticFields,,,,$average_percentage_of_time_ekstaziWithReachableStaticFields"
-echo $sum_full_string >> $currentDir/../data/ekstazi_output_RQ2.csv
+echo $sum_full_string >> $currentDir/../../data/ekstazi_output_RQ2.csv
